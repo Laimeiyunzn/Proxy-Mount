@@ -1,5 +1,6 @@
+proxies:
   - name: Taiwanx¹ 1  - 中华电信
-   server: n04.boom.skin
+    server: n04.boom.skin
    port: 18000
    type: ssr
    cipher: aes-256-cfb
@@ -9,7 +10,7 @@
    protocol-param: 285341:AC4022
    obfs-param: download.windowsupdate.com
    udp: true
-  - name: Taiwanx¹ 2  - 云高
+ - name: Taiwanx¹ 2  - 云高
    server: n119.boom.skin
    port: 17000
    type: ssr
