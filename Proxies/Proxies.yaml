@@ -98,7 +98,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKN 1 - Nearoute
+  - name: 'HKN 1 - Nearoute'
     server: ntemp15.boom.skin
     port: 19000
     type: ssr
@@ -110,7 +110,7 @@ proxies:
     obfs-param: download.windowsupdate.com
     udp: true
   - name: HKN A - Nearoute
-    server: ntemp10.boom.skin
+    server: 'ntemp10.boom.skin'
     port: 20000
     type: ssr
     cipher: aes-256-cfb
@@ -120,7 +120,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKN B - Nearoute
+  - name: 'HKN B - Nearoute'
     server: ntemp16.boom.skin
     port: 21000
     type: ssr
@@ -131,7 +131,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKN C - Nearoute
+  - name: 'HKN C - Nearoute'
     server: ntemp17.boom.skin
     port: 22000
     type: ssr
@@ -142,7 +142,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKN D - Nearoute
+  - name: 'HKN D - Nearoute'
     server: ntemp18.boom.skin
     port: 23000
     type: ssr
@@ -153,7 +153,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKN E - Nearoute
+  - name: 'HKN E - Nearoute'
     server: ntemp19.boom.skin
     port: 24000
     type: ssr
@@ -164,7 +164,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKN F - Nearoute
+  - name: 'HKN F - Nearoute'
     server: ntemp20.boom.skin
     port: 25000
     type: ssr
@@ -175,7 +175,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HK x¹ C - Nearoute
+  - name: 'HK x¹ C - Nearoute'
     server: n43.boom.skin
     port: 24000
     type: ssr
@@ -186,7 +186,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HK x¹ F - Nearoute
+  - name: 'HK x¹ F - Nearoute'
     server: n57.boom.skin
     port: 25000
     type: ssr
@@ -197,7 +197,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HK N 3 - Nearoute
+  - name: 'HK N 3 - Nearoute'
     server: n62.boom.skin
     port: 20000
     type: ssr
@@ -208,7 +208,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKN 1 - Leaseweb
+  - name: 'HKN 1 - Leaseweb'
     server: n06.boom.skin
     port: 21000
     type: ssr
@@ -219,7 +219,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKN 1 - Nearoute
+  - name: 'HKN 1 - Nearoute'
     server: ntemp01.boom.skin
     port: 10000
     type: ssr
@@ -230,7 +230,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKN 2 - Nearoute
+  - name: 'HKN 2 - Nearoute'
     server: ntemp02.boom.skin
     port: 11000
     type: ssr
@@ -241,7 +241,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKN 3 - Nearoute
+  - name: 'HKN 3 - Nearoute'
     server: ntemp03.boom.skin
     port: 12000
     type: ssr
@@ -252,7 +252,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKN 4 -  Nearoute
+  - name: 'HKN 4 -  Nearoute'
     server: ntemp04.boom.skin
     port: 13000
     type: ssr
@@ -263,7 +263,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKN 5 - Nearoute
+  - name: 'HKN 5 - Nearoute'
     server: ntemp05.boom.skin
     port: 14000
     type: ssr
@@ -274,7 +274,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKN 6 - Nearoute
+  - name: 'HKN 6 - Nearoute'
     server: ntemp06.boom.skin
     port: 15000
     type: ssr
@@ -285,7 +285,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKN 7 - Nearoute
+  - name: 'HKN 7 - Nearoute'
     server: ntemp07.boom.skin
     port: 16000
     type: ssr
@@ -296,7 +296,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKN 8 - Nearoute
+  - name: 'HKN 8 - Nearoute'
     server: ntemp08.boom.skin
     port: 17000
     type: ssr
@@ -307,7 +307,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKN 9 - Nearoute
+  - name: 'HKN 9 - Nearoute'
     server: ntemp09.boom.skin
     port: 18000
     type: ssr
@@ -318,7 +318,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: JP x¹ W - Leaseweb
+  - name: 'JP x¹ W - Leaseweb'
     server: n22.boom.skin
     port: 32200
     type: ssr
@@ -329,7 +329,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: JP x¹ Y - Leaseweb
+  - name: 'JP x¹ Y - Leaseweb'
     server: n116.boom.skin
     port: 33200
     type: ssr
@@ -340,7 +340,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: SG  x¹ 6 - 阿里云
+  - name: 'SG  x¹ 6 - 阿里云'
     server: n48.boom.skin
     port: 36000
     type: ssr
@@ -351,7 +351,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: SG  x¹ 7 - DO
+  - name: 'SG  x¹ 7 - DO'
     server: n47.boom.skin
     port: 31100
     type: ssr
@@ -362,7 +362,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: SG x¹ C - 阿里云
+  - name: 'SG x¹ C - 阿里云'
     server: n05.boom.skin
     port: 30001
     type: ssr
@@ -373,7 +373,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: US x¹ 1 - Netflix
+  - name: 'US x¹ 1 - Netflix'
     server: us5.edge.boom.skin
     port: 44001
     type: ssr
@@ -384,7 +384,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: US x¹ 2 - Netflix
+  - name: 'US x¹ 2 - Netflix'
     server: us6.edge.boom.skin
     port: 45000
     type: ssr
@@ -395,7 +395,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: US x¹ 3 - Netflix
+  - name: 'US x¹ 3 - Netflix'
     server: us7.edge.boom.skin
     port: 46000
     type: ssr
@@ -406,7 +406,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: US x¹ 4 - CC
+  - name: 'US x¹ 4 - CC'
     server: us8.edge.boom.skin
     port: 47000
     type: ssr
@@ -417,7 +417,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: US x¹ 5 - CC
+  - name: 'US x¹ 5 - CC'
     server: us9.edge.boom.skin
     port: 48000
     type: ssr
@@ -428,7 +428,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: US x¹ 6 - CC
+  - name: 'US x¹ 6 - CC'
     server: us10.edge.boom.skin
     port: 49001
     type: ssr
@@ -439,7 +439,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: US N 1 - CC
+  - name: 'US N 1 - CC'
     server: us1.edge.boom.skin
     port: 40000
     type: ssr
@@ -450,7 +450,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: US N 2 - CC
+  - name: 'US N 2 - CC'
     server: us2.edge.boom.skin
     port: 41000
     type: ssr
@@ -461,7 +461,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: US N 3 - CC
+  - name: 'US N 3 - CC'
     server: us3.edge.boom.skin
     port: 42001
     type: ssr
@@ -472,7 +472,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: US N 4 - CC
+  - name: 'US N 4 - CC'
     server: us4.edge.boom.skin
     port: 43000
     type: ssr
@@ -483,7 +483,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HK x¹ 9 - Nearoute
+  - name: 'HK x¹ 9 - Nearoute'
     server: n37.boom.skin
     port: 33300
     type: ssr
@@ -494,7 +494,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: Russia  x¹ 1 - RT
+  - name: 'Russia  x¹ 1 - RT'
     server: s102.boom.skin
     port: 20000
     type: ssr
@@ -505,7 +505,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: Russia  x¹ 2 - RT
+  - name: 'Russia  x¹ 2 - RT'
     server: s103.boom.skin
     port: 21000
     type: ssr
@@ -516,7 +516,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: Russia  x¹ 3 - RT
+  - name: 'Russia  x¹ 3 - RT'
     server: s104.boom.skin
     port: 22000
     type: ssr
@@ -527,7 +527,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: Russia  x¹ 4 - RT
+  - name: 'Russia  x¹ 4 - RT'
     server: s105.boom.skin
     port: 23000
     type: ssr
@@ -538,7 +538,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: Turkey x¹ 1 - Steam
+  - name: 'Turkey x¹ 1 - Steam'
     server: s01.boom.skin
     port: 37000
     type: ssr
@@ -549,7 +549,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: SG  x¹ 1 - Linode
+  - name: 'SG  x¹ 1 - Linode'
     server: n17.boom.skin
     port: 25000
     type: ssr
@@ -560,7 +560,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: SG  x¹ 8 - Linode
+  - name: 'SG  x¹ 8 - Linode'
     server: n96.boom.skin
     port: 18000
     type: ssr
@@ -582,7 +582,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: SG  x¹ A - Linode
+  - name: 'SG  x¹ A - Linode'
     server: n11.boom.skin
     port: 20000
     type: ssr
@@ -593,7 +593,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: SG x¹ B - DO
+  - name: 'SG x¹ B - DO'
     server: n110.boom.skin
     port: 22000
     type: ssr
@@ -604,7 +604,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: KR  x¹ 2 - VPC
+  - name: 'KR  x¹ 2 - VPC'
     server: n13.boom.skin
     port: 21000
     type: ssr
@@ -615,7 +615,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: 「GAME」HK x¹ 2 - HGC
+  - name: '「GAME」HK x¹ 2 - HGC'
     server: n09.boom.skin
     port: 12000
     type: ssr
@@ -626,7 +626,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: 「GAME」HK x¹ 3 - HGC
+  - name: '「GAME」HK x¹ 3 - HGC'
     server: n27.boom.skin
     port: 13000
     type: ssr
@@ -637,7 +637,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: 「GAME」HK x¹ 4 - HGC
+  - name: '「GAME」HK x¹ 4 - HGC'
     server: n63.boom.skin
     port: 14000
     type: ssr
@@ -648,7 +648,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: 「GAME」HK x¹ 6 - HGC
+  - name: '「GAME」HK x¹ 6 - HGC'
     server: n92.boom.skin
     port: 16000
     type: ssr
@@ -659,7 +659,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: 「GAME」HK x¹ 8 - HGC
+  - name: '「GAME」HK x¹ 8 - HGC'
     server: n77.boom.skin
     port: 23000
     type: ssr
@@ -670,7 +670,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: 「GAME」HK x¹ 9 - HGC
+  - name: '「GAME」HK x¹ 9 - HGC'
     server: n60.boom.skin
     port: 24000
     type: ssr
@@ -681,7 +681,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: 「GAME」HKx¹ 1 - HGC
+  - name: '「GAME」HKx¹ 1 - HGC'
     server: ntemp25.boom.skin
     port: 11000
     type: ssr
@@ -692,7 +692,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: 「GAME」HKx¹ 5 - HGC
+  - name: '「GAME」HKx¹ 5 - HGC'
     server: n100.boom.skin
     port: 15000
     type: ssr
@@ -703,7 +703,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: 「GAME」HKx¹ 7 - HGC
+  - name: '「GAME」HKx¹ 7 - HGC'
     server: n114.boom.skin
     port: 17000
     type: ssr
@@ -714,7 +714,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: 「IEPL」HKN 1 - Nearoute
+  - name: '「IEPL」HKN 1 - Nearoute'
     server: nk1.boom.skin
     port: 11000
     type: ssr
@@ -725,7 +725,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: 「IEPL」HKN 2 - Nearoute
+  - name: '「IEPL」HKN 2 - Nearoute'
     server: nk2.boom.skin
     port: 12000
     type: ssr
@@ -736,7 +736,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: 「IEPL」HKN 3 - Nearoute
+  - name: '「IEPL」HKN 3 - Nearoute'
     server: nk3.boom.skin
     port: 13000
     type: ssr
@@ -747,7 +747,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: 「IEPL」HKN 4 - Nearoute
+  - name: '「IEPL」HKN 4 - Nearoute'
     server: nk4.boom.skin
     port: 14000
     type: ssr
@@ -758,7 +758,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: 「IEPL」HKN 5 - Nearoute
+  - name: '「IEPL」HKN 5 - Nearoute'
     server: nk5.boom.skin
     port: 15000
     type: ssr
@@ -769,7 +769,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: 「IEPL」HKN 6 - Nearoute
+  - name: '「IEPL」HKN 6 - Nearoute'
     server: nk6.boom.skin
     port: 16000
     type: ssr
@@ -780,7 +780,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: 「IEPL」HKN 7 - Nearoute
+  - name: '「IEPL」HKN 7 - Nearoute'
     server: nk7.boom.skin
     port: 17000
     type: ssr
@@ -791,7 +791,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: JP x¹ 1 - chatGPT
+  - name: 'JP x¹ 1 - chatGPT'
     server: nf1.boom.skin
     port: 11000
     type: ssr
@@ -802,7 +802,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: JP x¹ 2 - chatGPT
+  - name: 'JP x¹ 2 - chatGPT'
     server: nf2.boom.skin
     port: 12000
     type: ssr
@@ -813,7 +813,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: JP x¹ 3 - chatGPT
+  - name: 'JP x¹ 3 - chatGPT'
     server: nf3.boom.skin
     port: 13000
     type: ssr
@@ -824,7 +824,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: JP x¹ 4 - chatGPT
+  - name: 'JP x¹ 4 - chatGPT'
     server: nf4.boom.skin
     port: 14000
     type: ssr
@@ -835,7 +835,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: JP x¹ 5 - chatGPT
+  - name: 'JP x¹ 5 - chatGPT'
     server: nf5.boom.skin
     port: 15000
     type: ssr
@@ -846,7 +846,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: JP x¹ 6 - chatGPT
+  - name: 'JP x¹ 6 - chatGPT'
     server: nf6.boom.skin
     port: 16000
     type: ssr
@@ -857,7 +857,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: JP x¹ 7 - chatGPT
+  - name: 'JP x¹ 7 - chatGPT'
     server: nf7.boom.skin
     port: 17000
     type: ssr
@@ -868,7 +868,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: JP x¹ 8 - chatGPT
+  - name: 'JP x¹ 8 - chatGPT'
     server: nf8.boom.skin
     port: 18000
     type: ssr
@@ -879,7 +879,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: JP x¹ 9 - chatGPT
+  - name: 'JP x¹ 9 - chatGPT'
     server: nf9.boom.skin
     port: 19000
     type: ssr
@@ -890,7 +890,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: JP x¹ A - chatGPT
+  - name: 'JP x¹ A - chatGPT'
     server: nf10.boom.skin
     port: 20000
     type: ssr
@@ -901,7 +901,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: JP x¹ B - chatGPT
+  - name: 'JP x¹ B - chatGPT'
     server: nf11.boom.skin
     port: 21000
     type: ssr
@@ -912,7 +912,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: 蒙古 N A - MN
+  - name: '蒙古 N A - MN'
     server: n170.boom.skin
     port: 33000
     type: ssr
@@ -923,7 +923,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKx¹ 1 - Netflix
+  - name: 'HKx¹ 1 - Netflix'
     server: nj1.boom.skin
     port: 11000
     type: ssr
@@ -934,7 +934,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKx¹ 2 - Netflix
+  - name: 'HKx¹ 2 - Netflix'
     server: nj2.boom.skin
     port: 12000
     type: ssr
@@ -945,7 +945,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKx¹ 3 - Netflix
+  - name: 'HKx¹ 3 - Netflix'
     server: nj3.boom.skin
     port: 13000
     type: ssr
@@ -956,7 +956,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKx¹ 4 - Netflix
+  - name: 'HKx¹ 4 - Netflix'
     server: nj4.boom.skin
     port: 14000
     type: ssr
@@ -967,7 +967,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKx¹ 5 - Netflix
+  - name: 'HKx¹ 5 - Netflix'
     server: nj5.boom.skin
     port: 15000
     type: ssr
@@ -978,7 +978,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKx¹ 6 - Netflix
+  - name: 'HKx¹ 6 - Netflix'
     server: nj6.boom.skin
     port: 16000
     type: ssr
@@ -989,7 +989,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKx¹ 7 - Netflix
+  - name: 'HKx¹ 7 - Netflix'
     server: nj7.boom.skin
     port: 17000
     type: ssr
@@ -1000,7 +1000,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKx¹ 8 - Netflix
+  - name: 'HKx¹ 8 - Netflix'
     server: nj8.boom.skin
     port: 18000
     type: ssr
@@ -1022,7 +1022,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKx¹ A - Netflix
+  - name: 'HKx¹ A - Netflix'
     server: nja.boom.skin
     port: 20000
     type: ssr
@@ -1033,7 +1033,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKx¹ B - Netflix
+  - name: 'HKx¹ B - Netflix'
     server: njb.boom.skin
     port: 21000
     type: ssr
@@ -1044,7 +1044,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKx¹ C - Netflix
+  - name: 'HKx¹ C - Netflix'
     server: njc.boom.skin
     port: 22000
     type: ssr
@@ -1055,7 +1055,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKx¹ D - Netflix
+  - name: 'HKx¹ D - Netflix'
     server: njd.boom.skin
     port: 23000
     type: ssr
@@ -1066,7 +1066,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKx¹ E - Netflix
+  - name: 'HKx¹ E - Netflix'
     server: nje.boom.skin
     port: 24000
     type: ssr
@@ -1077,7 +1077,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: SG N 1 - DO
+  - name: 'SG N 1 - DO'
     server: nk8.boom.skin
     port: 18000
     type: ssr
@@ -1099,7 +1099,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: SG N 3 - DO
+  - name: 'SG N 3 - DO'
     server: nka.boom.skin
     port: 20000
     type: ssr
@@ -1110,7 +1110,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: SG N 4 - DO
+  - name: 'SG N 4 - DO'
     server: nkb.boom.skin
     port: 21000
     type: ssr
@@ -1121,7 +1121,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: SG N 5 - DO
+  - name: 'SG N 5 - DO'
     server: nkc.boom.skin
     port: 22000
     type: ssr
@@ -1132,7 +1132,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: SG N 6 - DO
+  - name: 'SG N 6 - DO'
     server: nkd.boom.skin
     port: 23000
     type: ssr
@@ -1143,7 +1143,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: SG N 7 - DO
+  - name: 'SG N 7 - DO'
     server: nke.boom.skin
     port: 24000
     type: ssr
@@ -1154,7 +1154,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: SG  x¹1 - chatGPT
+  - name: 'SG  x¹1 - chatGPT'
     server: nl1.boom.skin
     port: 22000
     type: ssr
@@ -1165,7 +1165,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: SG  x¹2 - chatGPT
+  - name: 'SG  x¹2 - chatGPT'
     server: nl2.boom.skin
     port: 23000
     type: ssr
@@ -1176,7 +1176,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: SG  x¹3 - chatGPT
+  - name: 'SG  x¹3 - chatGPT'
     server: nl3.boom.skin
     port: 24000
     type: ssr
@@ -1187,7 +1187,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: SG  x¹4 - chatGPT
+  - name: 'SG  x¹4 - chatGPT'
     server: nl4.boom.skin
     port: 25000
     type: ssr
@@ -1198,7 +1198,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: SG  x¹5 - chatGPT
+  - name: 'SG  x¹5 - chatGPT'
     server: nl5.boom.skin
     port: 26000
     type: ssr
@@ -1209,7 +1209,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: SG  x¹6 - chatGPT
+  - name: 'SG  x¹6 - chatGPT'
     server: nl6.boom.skin
     port: 27000
     type: ssr
@@ -1220,7 +1220,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: SG  x¹7 - chatGPT
+  - name: 'SG  x¹7 - chatGPT'
     server: nl7.boom.skin
     port: 28000
     type: ssr
@@ -1231,7 +1231,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: SG  x¹8 - chatGPT
+  - name: 'SG  x¹8 - chatGPT'
     server: nl8.boom.skin
     port: 29000
     type: ssr
@@ -1242,7 +1242,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: SG  x¹9 - chatGPT
+  - name: 'SG  x¹9 - chatGPT'
     server: nl9.boom.skin
     port: 30000
     type: ssr
@@ -1253,7 +1253,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: SG  x¹A - chatGPT
+  - name: 'SG  x¹A - chatGPT'
     server: nla.boom.skin
     port: 31000
     type: ssr
@@ -1264,7 +1264,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: 马来西亚  x¹ 1 - TMNet
+  - name: '马来西亚  x¹ 1 - TMNet'
     server: s101.boom.skin
     port: 32000
     type: ssr
@@ -1275,7 +1275,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HK x¹ F - Leaseweb
+  - name: 'HK x¹ F - Leaseweb'
     server: n61.boom.skin
     port: 24000
     type: ssr
@@ -1286,7 +1286,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HK x¹ H - Leaseweb
+  - name: 'HK x¹ H - Leaseweb'
     server: n67.boom.skin
     port: 25000
     type: ssr
@@ -1297,7 +1297,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HK x¹ I - chatGPT
+  - name: 'HK x¹ I - chatGPT'
     server: n74.boom.skin
     port: 26000
     type: ssr
@@ -1308,7 +1308,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKx¹ 1 - Netflix
+  - name: 'HKx¹ 1 - Netflix'
     server: nm1.boom.skin
     port: 11000
     type: ssr
@@ -1319,7 +1319,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKx¹ 2 - Netflix
+  - name: 'HKx¹ 2 - Netflix'
     server: nm2.boom.skin
     port: 12000
     type: ssr
@@ -1330,7 +1330,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKx¹ 3 - Netflix
+  - name: 'HKx¹ 3 - Netflix'
     server: nm3.boom.skin
     port: 13000
     type: ssr
@@ -1341,7 +1341,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKx¹ 4 - Netflix
+  - name: 'HKx¹ 4 - Netflix'
     server: nm4.boom.skin
     port: 14000
     type: ssr
@@ -1352,7 +1352,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKx¹ 5 - Netflix
+  - name: 'HKx¹ 5 - Netflix'
     server: nm5.boom.skin
     port: 15000
     type: ssr
@@ -1363,7 +1363,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKx¹ 6 - Netflix
+  - name: 'HKx¹ 6 - Netflix'
     server: nm6.boom.skin
     port: 16000
     type: ssr
@@ -1374,7 +1374,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKx¹ 7 - Netflix
+  - name: 'HKx¹ 7 - Netflix'
     server: nm7.boom.skin
     port: 17000
     type: ssr
@@ -1385,7 +1385,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKx¹ 8 - Leaseweb
+  - name: 'HKx¹ 8 - Leaseweb'
     server: nm8.boom.skin
     port: 18000
     type: ssr
@@ -1396,7 +1396,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKx¹ 9 - Leaseweb
+  - name: 'HKx¹ 9 - Leaseweb'
     server: nm9.boom.skin
     port: 19000
     type: ssr
@@ -1407,7 +1407,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKx¹ A - Leaseweb
+  - name: 'HKx¹ A - Leaseweb'
     server: nma.boom.skin
     port: 20000
     type: ssr
@@ -1418,7 +1418,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKx¹ B - Leaseweb
+  - name: 'HKx¹ B - Leaseweb'
     server: nmb.boom.skin
     port: 21000
     type: ssr
@@ -1429,7 +1429,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKx¹ C - Leaseweb
+  - name: 'HKx¹ C - Leaseweb'
     server: nmc.boom.skin
     port: 22000
     type: ssr
@@ -1440,7 +1440,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKx¹ D - chatGPT
+  - name: 'HKx¹ D - chatGPT'
     server: nmd.boom.skin
     port: 23000
     type: ssr
@@ -1451,7 +1451,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKx¹ K - chatGPT
+  - name: 'HKx¹ K - chatGPT'
     server: n93.boom.skin
     port: 28000
     type: ssr
@@ -1462,7 +1462,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKx¹ T - Leaseweb
+  - name: 'HKx¹ T - Leaseweb'
     server: n111.boom.skin
     port: 29000
     type: ssr
@@ -1473,7 +1473,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKx¹ X - Leaseweb
+  - name: 'HKx¹ X - Leaseweb'
     server: n115.boom.skin
     port: 30000
     type: ssr
@@ -1484,7 +1484,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKx¹ Z - Leaseweb
+  - name: 'HKx¹ Z - Leaseweb'
     server: n117.boom.skin
     port: 31000
     type: ssr
@@ -1495,7 +1495,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: JP x¹ 1 - Nerocloud
+  - name: 'JP x¹ 1 - Nerocloud'
     server: jp6.boom.skin
     port: 35000
     type: ssr
@@ -1506,7 +1506,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: JP x¹ 10 - Nerocloud
+  - name: 'JP x¹ 10 - Nerocloud'
     server: jp15.boom.skin
     port: 39500
     type: ssr
@@ -1517,7 +1517,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: JP x¹ 11 - Nerocloud
+  - name: 'JP x¹ 11 - Nerocloud'
     server: jp16.boom.skin
     port: 39600
     type: ssr
@@ -1528,7 +1528,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: JP x¹ 12 - Nerocloud
+  - name: 'JP x¹ 12 - Nerocloud'
     server: jp17.boom.skin
     port: 39700
     type: ssr
@@ -1539,7 +1539,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: JP x¹ 13 - Nerocloud
+  - name: 'JP x¹ 13 - Nerocloud'
     server: jp18.boom.skin
     port: 39800
     type: ssr
@@ -1550,7 +1550,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: JP x¹ 14 - Nerocloud
+  - name: 'JP x¹ 14 - Nerocloud'
     server: jp19.boom.skin
     port: 39900
     type: ssr
@@ -1561,7 +1561,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: JP x¹ 15 - Nerocloud
+  - name: 'JP x¹ 15 - Nerocloud'
     server: jp20.boom.skin
     port: 38100
     type: ssr
@@ -1572,7 +1572,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: JP x¹ 2 - Nerocloud
+  - name: 'JP x¹ 2 - Nerocloud'
     server: jp7.boom.skin
     port: 36000
     type: ssr
@@ -1583,7 +1583,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: JP x¹ 3 - Nerocloud
+  - name: 'JP x¹ 3 - Nerocloud'
     server: jp8.boom.skin
     port: 37000
     type: ssr
@@ -1594,7 +1594,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: JP x¹ 4 - Nerocloud
+  - name: 'JP x¹ 4 - Nerocloud'
     server: jp9.boom.skin
     port: 38000
     type: ssr
@@ -1605,7 +1605,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: JP x¹ 5 - Nerocloud
+  - name: 'JP x¹ 5 - Nerocloud'
     server: jp10.boom.skin
     port: 39000
     type: ssr
@@ -1616,7 +1616,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: JP x¹ 6 - Nerocloud
+  - name: 'JP x¹ 6 - Nerocloud'
     server: jp11.boom.skin
     port: 39100
     type: ssr
@@ -1627,7 +1627,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: JP x¹ 7 - Nerocloud
+  - name: 'JP x¹ 7 - Nerocloud'
     server: jp12.boom.skin
     port: 39200
     type: ssr
@@ -1638,7 +1638,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: JP x¹ 8 - Nerocloud
+  - name: 'JP x¹ 8 - Nerocloud'
     server: jp13.boom.skin
     port: 39300
     type: ssr
@@ -1649,7 +1649,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: JP x¹ 9 - Nerocloud
+  - name: 'JP x¹ 9 - Nerocloud'
     server: jp14.boom.skin
     port: 39400
     type: ssr
@@ -1660,7 +1660,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: JP x¹ A - Leaseweb
+  - name: 'JP x¹ A - Leaseweb'
     server: nn1.boom.skin
     port: 40000
     type: ssr
@@ -1671,7 +1671,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: JP x¹ B - Leaseweb
+  - name: 'JP x¹ B - Leaseweb'
     server: nn2.boom.skin
     port: 41000
     type: ssr
@@ -1682,7 +1682,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: JP x¹ C - Leaseweb
+  - name: 'JP x¹ C - Leaseweb'
     server: nn3.boom.skin
     port: 42000
     type: ssr
@@ -1693,7 +1693,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: JP x¹ D - Leaseweb
+  - name: 'JP x¹ D - Leaseweb'
     server: nn4.boom.skin
     port: 43000
     type: ssr
@@ -1704,7 +1704,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: JP x¹ E - Leaseweb
+  - name: 'JP x¹ E - Leaseweb'
     server: nn5.boom.skin
     port: 44000
     type: ssr
@@ -1715,7 +1715,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: JP x¹ F - Leaseweb
+  - name: 'JP x¹ F - Leaseweb'
     server: nn6.boom.skin
     port: 45000
     type: ssr
@@ -1726,7 +1726,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: JP x¹ G - Leaseweb
+  - name: 'JP x¹ G - Leaseweb'
     server: nn7.boom.skin
     port: 46000
     type: ssr
@@ -1737,7 +1737,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: JP N 1 - Nerocloud
+  - name: 'JP N 1 - Nerocloud'
     server: jp1.boom.skin
     port: 30000
     type: ssr
@@ -1748,7 +1748,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: JP N 2 - Nerocloud
+  - name: 'JP N 2 - Nerocloud'
     server: jp2.boom.skin
     port: 31000
     type: ssr
@@ -1759,7 +1759,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: JP N 3 - Nerocloud
+  - name: 'JP N 3 - Nerocloud'
     server: jp3.boom.skin
     port: 32000
     type: ssr
@@ -1770,7 +1770,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: JP N 4 - Nerocloud
+  - name: 'JP N 4 - Nerocloud'
     server: jp4.boom.skin
     port: 33000
     type: ssr
@@ -1781,7 +1781,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: JP N 5 - Nerocloud
+  - name: 'JP N 5 - Nerocloud'
     server: jp5.boom.skin
     port: 34000
     type: ssr
@@ -1792,7 +1792,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKx¹ 10 - Leaseweb
+  - name: 'HKx¹ 10 - Leaseweb'
     server: nn14.boom.skin
     port: 53000
     type: ssr
@@ -1803,7 +1803,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKx¹ 8 - Leaseweb
+  - name: 'HKx¹ 8 - Leaseweb'
     server: nn12.boom.skin
     port: 51000
     type: ssr
@@ -1814,7 +1814,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKx¹ 9 - Nearoute
+  - name: 'HKx¹ 9 - Nearoute'
     server: nn13.boom.skin
     port: 52000
     type: ssr
@@ -1825,7 +1825,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKN 1 - Nearoute
+  - name: 'HKN 1 - Nearoute'
     server: nn8.boom.skin
     port: 47000
     type: ssr
@@ -1847,7 +1847,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKN 3 - Nearoute
+  - name: 'HKN 3 - Nearoute'
     server: nna.boom.skin
     port: 49000
     type: ssr
@@ -1858,7 +1858,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKN 4 - Leaseweb
+  - name: 'HKN 4 - Leaseweb'
     server: nn11.boom.skin
     port: 50000
     type: ssr
@@ -1869,7 +1869,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKx¹ 1 - Leaseweb
+  - name: 'HKx¹ 1 - Leaseweb'
     server: opt6.boom.skin
     port: 16000
     type: ssr
@@ -1880,7 +1880,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKx¹ 10 - Leaseweb
+  - name: 'HKx¹ 10 - Leaseweb'
     server: opt15.boom.skin
     port: 25000
     type: ssr
@@ -1891,7 +1891,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKx¹ 11 - Leaseweb
+  - name: 'HKx¹ 11 - Leaseweb'
     server: opt21.boom.skin
     port: 31000
     type: ssr
@@ -1902,7 +1902,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKx¹ 12 - Leaseweb
+  - name: 'HKx¹ 12 - Leaseweb'
     server: opt22.boom.skin
     port: 32000
     type: ssr
@@ -1913,7 +1913,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKx¹ 13 - Leaseweb
+  - name: 'HKx¹ 13 - Leaseweb'
     server: opt23.boom.skin
     port: 33000
     type: ssr
@@ -1924,7 +1924,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKx¹ 14 - Leaseweb
+  - name: 'HKx¹ 14 - Leaseweb'
     server: opt24.boom.skin
     port: 34000
     type: ssr
@@ -1935,7 +1935,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKx¹ 15 - Leaseweb
+  - name: 'HKx¹ 15 - Leaseweb'
     server: opt25.boom.skin
     port: 35000
     type: ssr
@@ -1946,7 +1946,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKx¹ 16 - Leaseweb
+  - name: 'HKx¹ 16 - Leaseweb'
     server: opt26.boom.skin
     port: 36000
     type: ssr
@@ -1957,7 +1957,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKx¹ 2 - Leaseweb
+  - name: 'HKx¹ 2 - Leaseweb'
     server: opt7.boom.skin
     port: 17000
     type: ssr
@@ -1968,7 +1968,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKx¹ 3 - Leaseweb
+  - name: 'HKx¹ 3 - Leaseweb'
     server: opt8.boom.skin
     port: 18000
     type: ssr
@@ -1979,7 +1979,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKx¹ 4 - Leaseweb
+  - name: 'HKx¹ 4 - Leaseweb'
     server: opt9.boom.skin
     port: 19000
     type: ssr
@@ -1990,7 +1990,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKx¹ 5 - Leaseweb
+  - name: 'HKx¹ 5 - Leaseweb'
     server: opt10.boom.skin
     port: 20000
     type: ssr
@@ -2001,7 +2001,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKx¹ 6 - Leaseweb
+  - name: 'HKx¹ 6 - Leaseweb'
     server: opt11.boom.skin
     port: 21000
     type: ssr
@@ -2012,7 +2012,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKx¹ 7 - Leaseweb
+  - name: 'HKx¹ 7 - Leaseweb'
     server: opt12.boom.skin
     port: 22000
     type: ssr
@@ -2023,7 +2023,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKx¹ 8 - Leaseweb
+  - name: 'HKx¹ 8 - Leaseweb'
     server: opt13.boom.skin
     port: 23000
     type: ssr
@@ -2034,7 +2034,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKx¹ 9 - Leaseweb
+  - name: 'HKx¹ 9 - Leaseweb'
     server: opt14.boom.skin
     port: 24000
     type: ssr
@@ -2045,7 +2045,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKN 1 - Leaseweb
+  - name: 'HKN 1 - Leaseweb'
     server: opt1.boom.skin
     port: 11000
     type: ssr
@@ -2056,7 +2056,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKN 10 - Leaseweb
+  - name: 'HKN 10 - Leaseweb'
     server: opt20.boom.skin
     port: 30000
     type: ssr
@@ -2067,7 +2067,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKN 2 - Leaseweb
+  - name: 'HKN 2 - Leaseweb'
     server: opt2.boom.skin
     port: 12000
     type: ssr
@@ -2078,7 +2078,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKN 3 - Leaseweb
+  - name: 'HKN 3 - Leaseweb'
     server: opt3.boom.skin
     port: 13000
     type: ssr
@@ -2089,7 +2089,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKN 4 - Leaseweb
+  - name: 'HKN 4 - Leaseweb'
     server: opt4.boom.skin
     port: 14000
     type: ssr
@@ -2100,7 +2100,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKN 5 - Leaseweb
+  - name: 'HKN 5 - Leaseweb'
     server: opt5.boom.skin
     port: 15000
     type: ssr
@@ -2111,7 +2111,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKN 6 - Leaseweb
+  - name: 'HKN 6 - Leaseweb'
     server: opt16.boom.skin
     port: 26000
     type: ssr
@@ -2122,7 +2122,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKN 7 - Leaseweb
+  - name: 'HKN 7 - Leaseweb'
     server: opt17.boom.skin
     port: 27000
     type: ssr
@@ -2133,7 +2133,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKN 8 - Leaseweb
+  - name: 'HKN 8 - Leaseweb'
     server: opt18.boom.skin
     port: 28000
     type: ssr
@@ -2144,7 +2144,7 @@ proxies:
     protocol-param: 285341:AC4022
     obfs-param: download.windowsupdate.com
     udp: true
-  - name: HKN 9 - Leaseweb
+  - name: 'HKN 9 - Leaseweb'
     server: opt19.boom.skin
     port: 29000
     type: ssr
