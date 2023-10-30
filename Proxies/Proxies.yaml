@@ -1,21 +1,21 @@
 proxies:
-  - name: Taiwanx¹ 1  - 中华电信
+  - name: 'Taiwanx¹ 1  - 中华电信'
     server: n04.boom.skin
-   port: 18000
-   type: ssr
-   cipher: aes-256-cfb
-   password: Uk92CS
-   protocol: auth_aes128_sha1
-   obfs: http_simple
-   protocol-param: 285341:AC4022
-   obfs-param: download.windowsupdate.com
-   udp: true
+    port: 18000
+    type: ssr
+    cipher: aes-256-cfb
+    password: 'Uk92CS'
+    protocol: auth_aes128_sha1
+    obfs: http_simple
+    protocol-param: 285341:AC4022
+    obfs-param: download.windowsupdate.com
+    udp: true
  - name: Taiwanx¹ 2  - 云高
    server: n119.boom.skin
    port: 17000
    type: ssr
    cipher: aes-256-cfb
-   password: Uk92CS
+   password: 'Uk92CS'
    protocol: auth_aes128_sha1
    obfs: http_simple
    protocol-param: 285341:AC4022
