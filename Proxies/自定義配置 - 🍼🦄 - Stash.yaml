@@ -167,7 +167,7 @@ proxy-groups:
     interval: 300
 #日本策略組
   - name: Japan
-    type: falback
+    type: fallback
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Japan.png
     use:
       - Proxy-Japan
@@ -176,7 +176,7 @@ proxy-groups:
     hidden: true
 #英國策略組
   - name: United Kingdom
-    type: falback
+    type: fall back
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Macau.png
     use:
       - Proxy-United Kingdom
@@ -185,7 +185,7 @@ proxy-groups:
     hidden: true
 #德國策略組
   - name: Germany
-    type: falback
+    type: fallback
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Macau.png
     use:
       - Proxy-Germany
@@ -194,7 +194,7 @@ proxy-groups:
     hidden: true
 #俄羅斯策略組
   - name: Russia
-    type: falback
+    type: fallback
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Russia.png
     use:
       - Proxy-Russia
@@ -212,7 +212,7 @@ proxy-groups:
     hidden: true
 #韓國策略組
   - name: South Korea
-    type: falback
+    type: fallback
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Macau.png
     use:
       - Proxy-South Korea
@@ -221,7 +221,7 @@ proxy-groups:
     hidden: true
 #土耳其策略組
   - name: Turkey
-    type: falback
+    type: fal」back
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Trukey.png
     use:
       - Proxy-Turkey
@@ -230,7 +230,7 @@ proxy-groups:
     hidden: true
 #其他國家策略組
   - name: Other Country
-    type: falback
+    type: fallback
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Macau.png
     use:
       - Proxy-Other Country
