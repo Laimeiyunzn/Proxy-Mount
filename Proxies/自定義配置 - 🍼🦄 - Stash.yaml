@@ -115,112 +115,234 @@ proxy-providers:
     filter: "荷兰|越南|迪拜|悉尼|柬埔寨|埃及|印度|阿根廷｜巴西"
 #策略組
 proxy-groups:
-  - name: 全球
+  - name: 手動全局「全球網絡」
     type: select
     proxies: &G
       - Hong Kong
-      - United States American
-      - Japan
+      - Macau
       - Taiwan
       - Singapore
-      - 漏網之魚
-      - DIRECT
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Global.png
+      - United States American
+      - Japan
+      - United Kingdom
+      - Germany
+      - Russia
+      - Canada
+      - South Korea
+      - Turkey
+      - Other Country
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/JIYOU.png
+#香港策略組
   - name: Hong Kong
-    type: url-test
+    type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Hong_Kong.png
     use:
-      - MyProxy-HK
+      - Proxy-HK
     url: "http://cp.cloudflare.com/generate_204"
     interval: 300
-  - name: United States American
+#澳門策略組
+  - name: Macau
     type: url-test
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/United_States.png
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Macau.png
     use:
-      - MyProxy-US
+      - Proxy-Macau
     url: "http://cp.cloudflare.com/generate_204"
     interval: 300
-  - name: Japan
-    type: url-test
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Japan.png
-    use:
-      - MyProxy-JP
-    url: "http://cp.cloudflare.com/generate_204"
-    interval: 300
+#台灣策略組
   - name: Taiwan
-    type: url-test
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/China.png
+    type: fallback
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Taiwan.png
     use:
-      - MyProxy-TW
+      - Proxy-Taiwan
     url: "http://cp.cloudflare.com/generate_204"
     interval: 300
+    hidden: true
+#新加坡策略組
   - name: Singapore
-    type: url-test
+    type: fallback
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Singapore.png
     use:
-      - MyProxy-SG
+      - Proxy-Singapore
     url: "http://cp.cloudflare.com/generate_204"
     interval: 300
+#美國策略組
+  - name: United States American
+    type: fallback
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/United_States.png
+    use:
+      - Proxy-United States American
+    url: "http://cp.cloudflare.com/generate_204"
+    interval: 300
+#日本策略組
+  - name: Japan
+    type: falback
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Japan.png
+    use:
+      - Proxy-Japan
+    url: "http://cp.cloudflare.com/generate_204"
+    interval: 300
+    hidden: true
+#英國策略組
+  - name: United Kingdom
+    type: falback
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Macau.png
+    use:
+      - Proxy-United Kingdom
+    url: "http://cp.cloudflare.com/generate_204"
+    interval: 300
+    hidden: true
+#德國策略組
+  - name: Germany
+    type: falback
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Macau.png
+    use:
+      - Proxy-Germany
+    url: "http://cp.cloudflare.com/generate_204"
+    interval: 300
+    hidden: true
+#俄羅斯策略組
+  - name: Russia
+    type: falback
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Russia.png
+    use:
+      - Proxy-Russia
+    url: "http://cp.cloudflare.com/generate_204"
+    interval: 300
+    hidden: true
+#加拿大策略組
+  - name: Canada
+    type: falback
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Canada.png
+    use:
+      - Proxy-Canada
+    url: "http://cp.cloudflare.com/generate_204"
+    interval: 300
+    hidden: true
+#韓國策略組
+  - name: South Korea
+    type: falback
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Macau.png
+    use:
+      - Proxy-South Korea
+    url: "http://cp.cloudflare.com/generate_204"
+    interval: 300
+    hidden: true
+#土耳其策略組
+  - name: Turkey
+    type: falback
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Trukey.png
+    use:
+      - Proxy-Turkey
+    url: "http://cp.cloudflare.com/generate_204"
+    interval: 300
+    hidden: true
+#其他國家策略組
+  - name: Other Country
+    type: falback
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Macau.png
+    use:
+      - Proxy-Other Country
+    url: "http://cp.cloudflare.com/generate_204"
+    interval: 300
+    hidden: true
+#Apple策略組
   - name: Apple
     type: select
     proxies:
       - DIRECT
       - Hong Kong
+      - Macau
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Apple.png
-  - name: Bilibili
-    type: select
-    proxies:
-      - DIRECT
-      - Hong Kong
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/bilibili_4.png
+#小紅書策略組
   - name: 小紅書
     type: select
     proxies:
-      - DIRECT
       - Hong Kong
-    icon: https://raw.githubusercontent.com//XiaoHongShu.png
-  - name: 流媒體
-    type: url-test
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Media.png
-    use:
-      - MyProxy-NF
-    url: "http://cp.cloudflare.com/generate_204"
-    interval: 300
-  - name: Twitter
+      - Macau
+      - DIRECT
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/XiaoHongShu.png
+#GAME策略組
+  - name: GAME
     type: select
-    proxies: *G
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Twitter.png
-  - name: Google
-    type: select
-    proxies: *G
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Google.png
-  - name: Microsoft
-    type: select
-    proxies: *G
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Microsoft.png
-  - name: Weibo
-    type: select
-    proxies: *G
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Weibo.png
-  - name: Speedtest
-    type: select
-    proxies: *G
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Speedtest.png
-  - name: 中國內地
+    proxies:
+      - Hong Kong
+      - Macau
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/XiaoHongShu.png
+#LOLM策略組
+  - name: LOLM
     type: select
     proxies:
       - DIRECT
       - Hong Kong
+      - Macau
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/League_of_Legends.png
+#HK Media策略組
+  - name: 港澳 Media
+    type: select
+    proxies:
+      - Hong Kong
+      - Macau
+      - DIRECT
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/League_of_Legends.png
+#Bilibili策略組
+  - name: Bilibili
+    type: select
+    proxies:
+      - Hong Kong
+      - Macau
       - United States American
-      - Japan
+      - Germany
+      - DIRECT
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/League_of_Legends.png
+#Wikipedia策略組
+  - name: Wikipedia
+    type: select
+    proxies:
+      - Hong Kong
+      - Macau
+      - United States American
+      - Germany
+      - DIRECT
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/League_of_Legends.png
+#GitHub策略組
+  - name: GitHub
+    type: select
+    proxies:
+      - United States American
+      - DIRECT
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/League_of_Legends.png
+#社交媒體策略組
+  - name: 社交媒體
+    type: select
+    proxies:
+      - Hong Kong
+      - Macau
+      - United States American
+      - DIRECT
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/XiaoHongShu.png
+#流媒體策略組
+  - name: 流媒體
+    type: select
+    proxies:
       - Taiwan
       - Singapore
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Heart.png
-  - name: 漏網之魚
-    type: select
+      - United States American
+      - Japan
+      - United Kingdom
+      - Turkey
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/XiaoHongShu.png
+#中國大陸策略組
+  - name: 中國大陸
+    type: url-test
     proxies:
       - DIRECT
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Pig.png
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/League_of_Legends.png
+#廣告攔截策略組
+  - name: 廣告攔截
+    type: url-test
+    proxies:
+      - REJECT
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/League_of_Legends.png
 #遠程規則集合
 rule-providers:
   Apple-rules:
