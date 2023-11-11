@@ -97,14 +97,6 @@ proxy-providers:
   Proxy-South Korea:
     !!merge <<: *CharlesProxy #引用錨點內容
     filter: "韓|韓國|韩|韩国|🇰🇷|KR|(?i)South Korea"
-  #澳門節點
-  Proxy-Macau:
-    !!merge <<: *CharlesProxy #引用錨點內容
-    filter: "澳門|澳门|🇲🇴|Macau|(?i)Macau"
-  #澳門節點
-  Proxy-Macau:
-    !!merge <<: *CharlesProxy #引用錨點內容
-    filter: "澳門|澳门|🇲🇴|Macau|(?i)Macau"
   #土耳其節點
   Proxy-Turkey:
     !!merge <<: *CharlesProxy #引用錨點內容
