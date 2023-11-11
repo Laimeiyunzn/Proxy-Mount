@@ -261,8 +261,6 @@ proxy-groups:
       - Macau
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Game.png
     #LOLM策略組
-
-    include-all: true
   - name: LOLM
     type: select
     proxies:
@@ -287,7 +285,7 @@ proxy-groups:
       - United States American
       - Germany
       - DIRECT
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/League_of_Legends.png
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/bilibili.png
     #Wikipedia策略組
   - name: Wikipedia
     type: select
