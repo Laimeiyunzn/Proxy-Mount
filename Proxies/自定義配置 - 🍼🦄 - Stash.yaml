@@ -176,7 +176,7 @@ proxy-groups:
     hidden: true
 #英國策略組
   - name: United Kingdom
-    type: fall back
+    type: fallback
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Macau.png
     use:
       - Proxy-United Kingdom
@@ -203,7 +203,7 @@ proxy-groups:
     hidden: true
 #加拿大策略組
   - name: Canada
-    type: falback
+    type: fallback
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Canada.png
     use:
       - Proxy-Canada
@@ -221,7 +221,7 @@ proxy-groups:
     hidden: true
 #土耳其策略組
   - name: Turkey
-    type: fal」back
+    type: fallback
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Trukey.png
     use:
       - Proxy-Turkey
