@@ -1,4 +1,4 @@
-subscribe-url: https://aaaa.gay/link/9B0khl9wXlshJBxi?client=v2
+subscribe-url: https://aaaa.gay/link/9B0khl9wXlshJBxi?client=clashmetaclient=v2
 # 替換上面文字用於Stash獲取機場流量信息並在主頁顯示
 
 #混合端口
@@ -49,7 +49,7 @@ proxies:
 #遠程訂閱
 proxy-providers:
   CharlesProxy: &CharlesProxy
-    url: "https://aaaa.gay/link/9B0khl9wXlshJBxi?client=v2" #建立錨點
+    url: "https://aaaa.gay/link/9B0khl9wXlshJBxi?client=clashmeta" #建立錨點
     # 使用Clash類型訂閱鏈接替換掉引號""內的鏈接使用。
     # 或可使用通用訂閱鏈接通過Sub-Store進行訂閱轉換。
     interval: 86400
