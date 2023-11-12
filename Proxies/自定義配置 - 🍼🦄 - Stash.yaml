@@ -50,7 +50,7 @@ proxies:
 proxy-providers:
 
   CharlesProxy: &CharlesProxy
-    url: "https://aaaa.gay/link/9B0khl9wXlshJBxi?client=clashv2old" #建立錨點
+    url: "http://sub.store/download/collection/%F0%9F%8D%BC%F0%9F%A6%84%EF%B8%8F?target=Stash" #建立錨點
     # 使用Clash類型訂閱鏈接替換掉引號""內的鏈接使用。
     # 或可使用通用訂閱鏈接通過Sub-Store進行訂閱轉換。
     interval: 86400
@@ -872,11 +872,10 @@ rules:
   #- RULE-SET,Weibo-rules,Weibo
 
     #境外分流規則引用
-  - RULE-SET,Global-rules,Outside
-  - DOMAIN,Global Domain-rules,Outside
-  - RULE-SET,GlobalMedia-rules,Outside
-  - DOMAIN,GlobalMedia Domain-rules,Outside
-  - RULE-SET,Global-rules,Outside
+  #- RULE-SET,Global-rules,Outside
+  #- DOMAIN,Global Domain-rules,Outside
+  #- RULE-SET,GlobalMedia-rules,Outside
+  #- DOMAIN,GlobalMedia Domain-rules,Outside
 
     #中國大陸規則引用
   - RULE-SET,ASN-rules,中國大陸
