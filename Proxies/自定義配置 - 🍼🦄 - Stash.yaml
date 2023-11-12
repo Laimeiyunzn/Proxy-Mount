@@ -151,15 +151,14 @@ proxy-groups:
     interval: 300
 
 
-    #香港GMAE策略組
-  - name: Hong Kong GAME
+    #HK GAME策略組
+  - name: HK GAME
     type: url-test
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Hong_Kong.png
     use:
       - Proxy-HK
     url: "http://cp.cloudflare.com/generate_204"
     interval: 300
-    hidden: true
 
 
     #澳門策略組
@@ -805,13 +804,13 @@ rules:
   - RULE-SET,BilibiliIntl-rules,Bilibili
 
     #Hong Kong GAME分流規則引用
-  - RULE-SET,Steam-rules,Hong Kong GAME
-  - RULE-SET,EA-rules,Hong Kong GAME
-  - RULE-SET,Rockstar-rules,Hong Kong GAME
-  - RULE-SET,WildRift-rules,Hong Kong GAME
-  - RULE-SET,PlayStation-rules,Hong Kong GAME
-  - RULE-SET,Ubisoft-rules,Hong Kong GAME
-  - RULE-SET,Riot-rules,Hong Kong GAME
+  - RULE-SET,Steam-rules,HK GAME
+  - RULE-SET,EA-rules,HK GAME
+  - RULE-SET,Rockstar-rules,HK GAME
+  - RULE-SET,WildRift-rules,HK GAME
+  - RULE-SET,PlayStation-rules,HK GAME
+  - RULE-SET,Ubisoft-rules,HK GAME
+  - RULE-SET,Riot-rules,HK GAME
 
     #HKMedia分流規則引用
   - RULE-SET,TVB-rules,Hong Kong
