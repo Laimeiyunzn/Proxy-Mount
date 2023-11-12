@@ -437,11 +437,11 @@ rule-providers:
     interval: 86400
     name: Ubisoft
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/UBI/UBI.yaml
-  Roit-rules:
+  Riot-rules:
     behavior: classical
     interval: 86400
-    name: Roit
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Roit/Roit.yaml
+    name: Riot
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Riot/Riot.yaml
 
 
 #社交媒體規則
