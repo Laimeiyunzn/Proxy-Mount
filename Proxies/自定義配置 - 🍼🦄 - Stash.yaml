@@ -805,7 +805,7 @@ rules:
   - RULE-SET,BilibiliIntl-rules,Bilibili
 
     #Hong Kong GAME分流規則引用
-  - RULE-SET,Steam,Hong Kong GAME
+  - RULE-SET,Steam-rules,Hong Kong GAME
   - RULE-SET,EA-rules,Hong Kong GAME
   - RULE-SET,Rockstar-rules,Hong Kong GAME
   - RULE-SET,WildRift-rules,Hong Kong GAME
