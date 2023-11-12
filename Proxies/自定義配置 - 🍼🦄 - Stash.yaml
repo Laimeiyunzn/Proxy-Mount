@@ -430,8 +430,7 @@ proxy-groups:
 
 
     #廣告攔截策略組
-  - name: 廣告攔截
-    type: url-test
+  - name: select
     proxies:
       - DIRECT
       - REJECT
