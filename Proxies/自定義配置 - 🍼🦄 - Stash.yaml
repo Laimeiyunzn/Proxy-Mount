@@ -454,7 +454,7 @@ rule-providers:
     behavior: classical
     interval: 86400
     name: Whatsapp
-    url: 
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Whatsapp/Whatsapp.yaml
   Twitter-rules:
     behavior: classical
     interval: 86400
