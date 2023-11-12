@@ -133,6 +133,15 @@ proxy-groups:
       - Proxy-HK
     url: "http://cp.cloudflare.com/generate_204"
     interval: 300
+    #香港GMAE策略組
+  - name: Hong Kong GAME
+    type: url-test
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Hong_Kong.png
+    use:
+      - Proxy-HK
+    url: "http://cp.cloudflare.com/generate_204"
+    interval: 300
+    hidden: true
     #澳門策略組
   - name: Macau
     type: url-test
@@ -258,6 +267,7 @@ proxy-groups:
   - name: GAME
     type: select
     proxies:
+      - Hong Kong GAME
       - Hong Kong
       - Macau
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Game.png
@@ -267,6 +277,7 @@ proxy-groups:
     proxies:
       - DIRECT
       - Hong Kong
+      - Hong Kong GAME
       - Macau
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/League_of_Legends.png
     #HK Media策略組
