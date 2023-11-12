@@ -276,8 +276,8 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - Hong Kong
       - Hong Kong GAME
+      - Hong Kong
       - Macau
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/League_of_Legends.png
     #HK Media策略組
