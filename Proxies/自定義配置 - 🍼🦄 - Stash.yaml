@@ -314,7 +314,7 @@ proxy-groups:
   - name: GAME
     type: select
     proxies:
-      - Hong Kong GAME
+      - HK GAME
       - Hong Kong
       - Macau
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Game.png
