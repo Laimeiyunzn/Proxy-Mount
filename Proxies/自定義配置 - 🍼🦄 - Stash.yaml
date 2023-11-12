@@ -834,7 +834,7 @@ rules:
   - RULE-SET,HBO HK-rules,流媒體
   - RULE-SET,HBO Asia-rules,流媒體
   - RULE-SET,HBO USA-rules,流媒體
-  - RULE-SET,HBO -rules,流媒體
+  - RULE-SET,HBO-rules,流媒體
   - RULE-SET,Hulu-rules,流媒體
   - RULE-SET,Hulu USA-rules,流媒體
   - RULE-SET,Hulu JP-rules,流媒體
