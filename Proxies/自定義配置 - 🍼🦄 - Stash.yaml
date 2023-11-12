@@ -48,6 +48,7 @@ dns:
 proxies:
 #遠程訂閱
 proxy-providers:
+
   CharlesProxy: &CharlesProxy
     url: "https://aaaa.gay/link/9B0khl9wXlshJBxi?client=clashv2old" #建立錨點
     # 使用Clash類型訂閱鏈接替換掉引號""內的鏈接使用。
@@ -57,50 +58,62 @@ proxy-providers:
       enable: true
       interval: 3600
       url: http://cp.cloudflare.com/generate_204
+
   #香港節點
   Proxy-HK:
     !!merge <<: *CharlesProxy #引用錨點內容
-    filter: "港|🇭🇰|HK|(?i)Hong"
+    filter: "香港|港|🇭🇰|HK|(?i)Hong"
+
   #澳門節點
   Proxy-Macau:
     !!merge <<: *CharlesProxy #引用錨點內容
     filter: "澳門|澳门|🇲🇴|Macau|(?i)Macau"
+
   #新加坡節點
   Proxy-Singapore:
     !!merge <<: *CharlesProxy #引用錨點內容
     filter: "新加坡|坡|獅城|狮城|🇸🇬|SG|(?i)Singapore"
+
   #美國節點
   Proxy-United States American:
     !!merge <<: *CharlesProxy #引用錨點內容
     filter: "美|美国|美國|波特兰|达拉斯|俄勒冈|凤凰城|费力蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|🇺🇲|US|(?i)United States American"
+
   #台灣節點
   Proxy-Taiwan:
     !!merge <<: *CharlesProxy #引用錨點內容
     filter: "台|台灣|台湾|台北|新竹|台中|桃园|台南|高雄|花莲|🇨🇳|🇹🇼|TW|(?i)Taiwan"
+
   #日本節點
   Proxy-Japan:
     !!merge <<: *CharlesProxy #引用錨點內容
     filter: "日|日本|東京|川日|大阪|泉日|埼玉|沪日|深日|Japan|名古屋|福冈|仙台|京都|🇯🇵|JP|(?i)Japan"
+
   #英國節點
   Proxy-United Kingdom:
     !!merge <<: *CharlesProxy #引用錨點內容
     filter: "英|英國|英国|🇬🇧|UK|(?i)United Kingdom"
+
   #德國節點
   Proxy-Germany:
     !!merge <<: *CharlesProxy #引用錨點內容
     filter: "德|德國|德国|🇩🇪|GE|(?i)Germany"
+
   #加拿大節點
   Proxy-Canada:
     !!merge <<: *CharlesProxy #引用錨點內容
     filter: "加|加拿大|🇨🇦|CAN|(?i)Canada"
+
   #韓國節點
   Proxy-South Korea:
     !!merge <<: *CharlesProxy #引用錨點內容
     filter: "韓|韓國|韩|韩国|🇰🇷|KR|(?i)South Korea"
+
   #土耳其節點
   Proxy-Turkey:
     !!merge <<: *CharlesProxy #引用錨點內容
     filter: "土|土耳其|土耳其|TR|(?i)Turkey"
+
   #Other Country節點
   Proxy-Other Country:
     !!merge <<: *CharlesProxy #引用錨點內容
@@ -108,6 +121,7 @@ proxy-providers:
 
 #策略組
 proxy-groups:
+
   - name: 手動全局「全球網絡」
     type: select
     proxies: &G
@@ -125,6 +139,8 @@ proxy-groups:
       - Turkey
       - Other Country
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/JIYOU.png
+
+
     #香港策略組
   - name: Hong Kong
     type: select
@@ -133,6 +149,8 @@ proxy-groups:
       - Proxy-HK
     url: "http://cp.cloudflare.com/generate_204"
     interval: 300
+
+
     #香港GMAE策略組
   - name: Hong Kong GAME
     type: url-test
@@ -142,6 +160,8 @@ proxy-groups:
     url: "http://cp.cloudflare.com/generate_204"
     interval: 300
     hidden: true
+
+
     #澳門策略組
   - name: Macau
     type: url-test
@@ -150,6 +170,8 @@ proxy-groups:
       - Proxy-Macau
     url: "http://cp.cloudflare.com/generate_204"
     interval: 300
+
+
     #台灣策略組
   - name: Taiwan
     type: fallback
@@ -159,6 +181,8 @@ proxy-groups:
     url: "http://cp.cloudflare.com/generate_204"
     interval: 300
     hidden: true
+
+
     #新加坡策略組
   - name: Singapore
     type: fallback
@@ -167,6 +191,8 @@ proxy-groups:
       - Proxy-Singapore
     url: "http://cp.cloudflare.com/generate_204"
     interval: 300
+
+
     #美國策略組
   - name: United States American
     type: fallback
@@ -175,6 +201,8 @@ proxy-groups:
       - Proxy-United States American
     url: "http://cp.cloudflare.com/generate_204"
     interval: 300
+
+
     #日本策略組
   - name: Japan
     type: fallback
@@ -184,6 +212,8 @@ proxy-groups:
     url: "http://cp.cloudflare.com/generate_204"
     interval: 300
     hidden: true
+
+
     #英國策略組
   - name: United Kingdom
     type: fallback
@@ -193,6 +223,8 @@ proxy-groups:
     url: "http://cp.cloudflare.com/generate_204"
     interval: 300
     hidden: true
+
+
     #德國策略組
   - name: Germany
     type: fallback
@@ -202,6 +234,8 @@ proxy-groups:
     url: "http://cp.cloudflare.com/generate_204"
     interval: 300
     hidden: true
+
+
     #俄羅斯策略組
   - name: Russia
     type: fallback
@@ -211,6 +245,8 @@ proxy-groups:
     url: "http://cp.cloudflare.com/generate_204"
     interval: 300
     hidden: true
+
+
     #加拿大策略組
   - name: Canada
     type: fallback
@@ -220,6 +256,8 @@ proxy-groups:
     url: "http://cp.cloudflare.com/generate_204"
     interval: 300
     hidden: true
+
+
     #韓國策略組
   - name: South Korea
     type: fallback
@@ -229,6 +267,8 @@ proxy-groups:
     url: "http://cp.cloudflare.com/generate_204"
     interval: 300
     hidden: true
+
+
     #土耳其策略組
   - name: Turkey
     type: fallback
@@ -238,6 +278,8 @@ proxy-groups:
     url: "http://cp.cloudflare.com/generate_204"
     interval: 300
     hidden: true
+
+
     #其他國家策略組
   - name: Other Country
     type: fallback
@@ -247,6 +289,8 @@ proxy-groups:
     url: "http://cp.cloudflare.com/generate_204"
     interval: 300
     hidden: true
+
+
     #Apple策略組
   - name: Apple
     type: select
@@ -255,6 +299,8 @@ proxy-groups:
       - Hong Kong
       - Macau
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Apple.png
+
+
     #小紅書策略組
   - name: 小紅書
     type: select
@@ -263,6 +309,8 @@ proxy-groups:
       - Macau
       - DIRECT
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Dinosaur.png
+
+
     #GAME策略組
   - name: GAME
     type: select
@@ -271,6 +319,8 @@ proxy-groups:
       - Hong Kong
       - Macau
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Game.png
+
+
     #LOLM策略組
   - name: LOLM
     type: select
@@ -280,6 +330,8 @@ proxy-groups:
       - Hong Kong
       - Macau
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/League_of_Legends.png
+
+
     #HK Media策略組
   - name: 港澳 Media
     type: select
@@ -288,6 +340,8 @@ proxy-groups:
       - Macau
       - DIRECT
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/TVB.png
+
+
     #Bilibili策略組
   - name: Bilibili
     type: select
@@ -298,6 +352,8 @@ proxy-groups:
       - Germany
       - DIRECT
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/bilibili.png
+
+
     #Wikipedia策略組
   - name: Wikipedia
     type: select
@@ -308,13 +364,19 @@ proxy-groups:
       - Germany
       - DIRECT
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Pirate_Nation.png
-    #GitHub策略組
-  - name: GitHub
+
+
+    #工具類策略組
+  - name: 工具類
     type: select
     proxies:
+      - Hong Kong
+      - Macau
       - United States American
       - DIRECT
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Stack.png
+
+
     #社交媒體策略組
   - name: 社交媒體
     type: select
@@ -324,6 +386,8 @@ proxy-groups:
       - United States American
       - DIRECT
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Facebook.png
+
+
     #流媒體策略組
   - name: 流媒體
     type: select
@@ -335,12 +399,37 @@ proxy-groups:
       - United Kingdom
       - Turkey
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Disney+.png
+
+
     #中國大陸策略組
   - name: 中國大陸
     type: url-test
     proxies:
       - DIRECT
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/China_Map.png
+
+
+    #境外策略組
+  - name: Outside
+    type: select
+    proxies:
+      - Hong Kong
+      - Macau
+      - Taiwan
+      - Singapore
+      - United States American
+      - Japan
+      - United Kingdom
+      - Germany
+      - Russia
+      - Canada
+      - South Korea
+      - Turkey
+      - Other Country
+      - DIRECT
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Unlock.png
+
+
     #廣告攔截策略組
   - name: 廣告攔截
     type: url-test
@@ -433,11 +522,11 @@ rule-providers:
     interval: 86400
     name: WildRift
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/WildRift/WildRift.yaml
-  PlayStaion-rules:
+  PlayStation-rules:
     behavior: classical
     interval: 86400
-    name: PlayStaion
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/PlayStaion/PlayStaion.yaml
+    name: PlayStation
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/PlayStation/PlayStation.yaml
   Epic-rules:
     behavior: classical
     interval: 86400
@@ -453,6 +542,29 @@ rule-providers:
     interval: 86400
     name: Riot
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Riot/Riot.yaml
+
+
+#HKMedia規則
+  TVB-rules:
+    behavior: classical
+    interval: 86400
+    name: TVB
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/TVB/TVB.yaml
+  myTVSUPER-rules:
+    behavior: classical
+    interval: 86400
+    name: myTVSUPER
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/myTVSUPER/myTVSUPER.yaml
+  ViuTV-rules:
+    behavior: classical
+    interval: 86400
+    name: ViuTV
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/ViuTV/ViuTV.yaml
+  HK01-rules:
+    behavior: classical
+    interval: 86400
+    name: HK01
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/HK01/HK01.yaml
 
 
 #社交媒體規則
@@ -471,11 +583,6 @@ rule-providers:
     interval: 86400
     name: Twitter
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Whatsapp/Whatsapp.yaml
-  TikTok-rules:
-    behavior: classical
-    interval: 86400
-    name: TikTok
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/TikTok/TikTok.yaml
   Telegram-rules:
     behavior: classical
     interval: 86400
@@ -499,6 +606,11 @@ rule-providers:
 
 
 #流媒體規則
+  TikTok-rules:
+    behavior: classical
+    interval: 86400
+    name: TikTok
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/TikTok/TikTok.yaml
   Netflix-rules:
     behavior: classical
     interval: 86400
@@ -675,27 +787,96 @@ rule-providers:
 
 #分流規則引用
 rules:
+    #Apple分流規則引用
   - RULE-SET,Apple-rules,Apple
+
+    #小紅書分流規則引用
   - RULE-SET,小紅書-rules,小紅書
+
+    #廣告攔截分流規則引用
+  - RULE-SET,AD-REJET-rules,廣告攔截
+  - DOMAIN,AD-REJET-Domain-rules,廣告攔截
+
+    #LOLM分流規則引用
+  - RULE-SET,LOLM-rules,LOLM
+
+    #Bilibili分流規則引用
   - RULE-SET,Bilibili-rules,Bilibili
+  - RULE-SET,BilibiliIntl-rules,Bilibili
+
+    #Hong Kong GAME分流規則引用
+  - RULE-SET,Steam,Hong Kong GAME
+  - RULE-SET,EA-rules,Hong Kong GAME
+  - RULE-SET,Rockstar-rules,Hong Kong GAME
+  - RULE-SET,WildRift-rules,Hong Kong GAME
+  - RULE-SET,PlayStation-rules,Hong Kong GAME
+  - RULE-SET,Ubisoft-rules,Hong Kong GAME
+  - RULE-SET,Riot-rules,Hong Kong GAME
+
+    #HKMedia分流規則引用
+  - RULE-SET,TVB-rules,Hong Kong
+  - RULE-SET,myTVSUPER-rules,Hong Kong
+  - RULE-SET,ViuTV-rules,Hong Kong
+  - RULE-SET,HK01-rules,Hong Kong
+
+    #社交媒體分流規則引用
+  - RULE-SET,Facebook-rules,社交媒體
+  - RULE-SET,Whatsapp-rules,社交媒體
+  - RULE-SET,Twitter-rules,社交媒體
+  - RULE-SET,Discord-rules,社交媒體
+  - RULE-SET,Instagram-rules,社交媒體
+  - RULE-SET,Reddit-rules,社交媒體
+
+    #流媒體分流規則引用
+  - RULE-SET,TikTok-rules,流媒體
   - RULE-SET,Netflix-rules,流媒體
   - RULE-SET,Disney+-rules,流媒體
-  - RULE-SET,HBO-rules,流媒體
+  - RULE-SET,HBO HK-rules,流媒體
+  - RULE-SET,HBO Asia-rules,流媒體
+  - RULE-SET,HBO USA-rules,流媒體
+  - RULE-SET,HBO -rules,流媒體
+  - RULE-SET,Hulu-rules,流媒體
+  - RULE-SET,Hulu USA-rules,流媒體
+  - RULE-SET,Hulu JP-rules,流媒體
   - RULE-SET,Youtube-rules,流媒體
+  - RULE-SET,Twitch-rules,流媒體
+  - RULE-SET,AmazonPrimeVideo-rules,流媒體
   - RULE-SET,Spotify-rules,流媒體
-  - RULE-SET,TikTok-rules,流媒體
-  - RULE-SET,Telegram-rules,Telegram
-  - RULE-SET,Clubhouse-rules,流媒體
-  - RULE-SET,ClubhouseIP-rules,流媒體
-  - RULE-SET,Twitter-rules,Twitter
-  - RULE-SET,Google-rules,Google
-  - RULE-SET,Microsoft-rules,Microsoft
-  - RULE-SET,Weibo-rules,Weibo
+  #- RULE-SET,Clubhouse-rules,流媒體
+  #- RULE-SET,ClubhouseIP-rules,流媒體
+
+    #Wikipedia分流規則引用
+  - RULE-SET,Wikipedia-rules,Wikipedia
+
+    #Speedtest分流規則引用
   - RULE-SET,Speedtest-rules,Speedtest
-  #- RULE-SET,Mainland-rules,中國內地
-  #- RULE-SET,MainlandIP-rules,中國內地
-  - RULE-SET,Global-rules,手動全局
-  # ⚠注意：本配置目前主流使用ASN規則作為中國內地分流，如不想使用，請在ASN規則前面加#號注釋，同時把Mainland-rules、MainlandIP-rules及GEOIP前面的#號刪除放行使其生效。
-  - RULE-SET,ASN-rules,DIRECT
+
+    #工具類分流規則引用
+  - RULE-SET,Google-rules,工具類
+  - RULE-SET,Microsoft-rules,工具類
+  - RULE-SET,GitHub-rules,工具類
+
+    #微博分流規則引用
+  #- RULE-SET,Weibo-rules,Weibo
+
+    #境外分流規則引用
+  - RULE-SET,Global-rules,Outside
+  - DOMAIN,Global Domain-rules,Outside
+  - RULE-SET,GlobalMedia-rules,Outside
+  - DOMAIN,GlobalMedia Domain-rules,Outside
+  - RULE-SET,Global-rules,Outside
+
+    #中國大陸規則引用
+  - RULE-SET,ASN-rules,中國大陸
+#Mainland-rules
+  #- RULE-SET,Mainland-rules,中國大陸
+  #- DOMAIN,Mainland-rules,中國大陸
+  #- IPCIDR,MainlandIP-rules,中國大陸
+#Mainland Max-rules
+  #- RULE-SET,Mainland Max-rules,中國大陸
+  #- DOMAIN,Mainland Max Domain-rules,中國大陸
+  #- IPCIDR,Mainland Max Domain IP-rules,中國大陸
   #- GEOIP,CN,DIRECT
-  - MATCH,漏網之魚
+
+# ⚠注意：本配置目前主流使用ASN規則作為中國內地分流，如不想使用，請在ASN規則前面加#號注釋，同時把Mainland-rules、MainlandIP-rules及GEOIP前面的#號刪除放行使其生效。
+  #- MATCH,漏網之魚
