@@ -802,7 +802,7 @@ rules:
 
     #Bilibili分流規則引用
   - RULE-SET,Bilibili-rules,Bilibili
-  - RULE-SET,BilibiliIntl-rules,Bilibili
+  - RULE-SET,BiliBliIntl-rules,Bilibili
 
     #Hong Kong GAME分流規則引用
   - RULE-SET,Steam,Hong Kong GAME
