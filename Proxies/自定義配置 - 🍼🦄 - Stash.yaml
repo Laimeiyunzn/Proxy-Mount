@@ -481,10 +481,10 @@ rule-providers:
     interval: 86400
     name: Bilibili
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/BiliBili/BiliBili.yaml
-  BiliBiliIntl-rules:
+  BilibiliIntl-rules:
     behavior: classical
     interval: 86400
-    name: BiliBiliIntl
+    name: BilibiliIntl
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/BiliBiliIntl/BiliBiliIntl.yaml
 
 
@@ -802,7 +802,7 @@ rules:
 
     #Bilibili分流規則引用
   - RULE-SET,Bilibili-rules,Bilibili
-  - RULE-SET,BiliBliIntl-rules,Bilibili
+  - RULE-SET,BilibliIntl-rules,Bilibili
 
     #Hong Kong GAME分流規則引用
   - RULE-SET,Steam,Hong Kong GAME
