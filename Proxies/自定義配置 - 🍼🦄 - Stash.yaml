@@ -592,7 +592,7 @@ rule-providers:
     behavior: classical
     interval: 86400
     name: Twitter
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Whatsapp/Whatsapp.yaml
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Twitter/Twitter.yaml
   Telegram-rules:
     behavior: classical
     interval: 86400
