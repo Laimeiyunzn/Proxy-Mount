@@ -105,6 +105,7 @@ proxy-providers:
   Proxy-Other Country:
     !!merge <<: *CharlesProxy #引用錨點內容
     filter: "荷兰|越南|迪拜|悉尼|柬埔寨|埃及|印度|阿根廷｜巴西"
+
 #策略組
 proxy-groups:
   - name: 手動全局「全球網絡」
@@ -335,8 +336,12 @@ proxy-groups:
     proxies:
       - REJECT
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Advertising.png
+
 #遠程規則集合
 rule-providers:
+
+
+#Apple規則
   Apple-rules:
     behavior: classical
     interval: 86400
@@ -348,6 +353,8 @@ rule-providers:
     name: Apple
     url: https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/Apple/Apple_Domain.yaml
 
+
+#廣告攔截規則
   AD-REJET-rules:
     behavior: classical
     interval: 86400
@@ -359,6 +366,8 @@ rule-providers:
     name: 廣告攔截
     url: https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/Advertising/Advertising_Domain.yaml
 
+
+#LOLM規則
   LOLM-rules:
     behavior: classical
     interval: 86400
@@ -366,88 +375,279 @@ rule-providers:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/TencentLoLMobile/TencentLoLMobile.yaml
 
 
+#Bilibili規則
   Bilibili-rules:
     behavior: classical
     interval: 86400
     name: Bilibili
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/BiliBili/BiliBili.yaml
+  BiliBiliIntl-rules:
+    behavior: classical
+    interval: 86400
+    name: BiliBiliIntl
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/BiliBiliIntl/BiliBiliIntl.yaml
+
+
+#小紅書規則
   小紅書-rules:
     behavior: classical
     interval: 86400
     name: XiaoHongShu
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/XiaoHongShu/XiaoHongShu.yaml
-  Netflix-rules:
+
+
+#GAME規則
+  Steam-rules:
     behavior: classical
     interval: 86400
-    name: Netflix
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Netflix/Netflix.yaml
-  Disney-rules:
+    name: Steam
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Steam/Steam.yaml
+  EA-rules:
     behavior: classical
     interval: 86400
-    name: Disney
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Disney/Disney.yaml
-  HBO-rules:
+    name: EA
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/EA/EA.yaml
+  Rockstar-rules:
     behavior: classical
     interval: 86400
-    name: HBO
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/HBO/HBO.yaml
-  Youtube-rules:
+    name: Rockstar
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Rockstar/Rockstar.yaml
+  Xbox-rules:
     behavior: classical
     interval: 86400
-    name: Youtube
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/YouTube/YouTube.yaml
-  Spotify-rules:
+    name: Xbox
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Xbox/Xbox.yaml
+  WildRift-rules:
     behavior: classical
     interval: 86400
-    name: Spotify
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Spotify/Spotify.yaml
+    name: WildRift
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/WildRift/WildRift.yaml
+  PlayStaion-rules:
+    behavior: classical
+    interval: 86400
+    name: PlayStaion
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/PlayStaion/PlayStaion.yaml
+  Epic-rules:
+    behavior: classical
+    interval: 86400
+    name: Epic
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Epic/Epic.yaml
+  Ubisoft-rules:
+    behavior: classical
+    interval: 86400
+    name: Ubisoft
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/UBI/UBI.yaml
+  Roit-rules:
+    behavior: classical
+    interval: 86400
+    name: Roit
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Roit/Roit.yaml
+
+
+#社交媒體規則
+  Facebook-rules:
+    behavior: classical
+    interval: 86400
+    name: Facebook
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Facebook/Facebook.yaml
+  Whatsapp-rules:
+    behavior: classical
+    interval: 86400
+    name: Whatsapp
+    url: 
+  Twitter-rules:
+    behavior: classical
+    interval: 86400
+    name: Twitter
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Whatsapp/Whatsapp.yaml
   TikTok-rules:
     behavior: classical
     interval: 86400
     name: TikTok
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/TikTok/TikTok.yaml
   Telegram-rules:
-    behavior: domain
+    behavior: classical
     interval: 86400
     name: Telegram
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Telegram/Telegram.yaml
+  Discord-rules:
+    behavior: classical
+    interval: 86400
+    name: Discord
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Discord/Discord.yaml
+  Instagram-rules:
+    behavior: classical
+    interval: 86400
+    name: Instagram
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Instagram/Instagram.yaml
+  Reddit-rules:
+    behavior: classical
+    interval: 86400
+    name: Reddit
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Reddit/Reddit.yaml
+
+
+#流媒體規則
+  Netflix-rules:
+    behavior: classical
+    interval: 86400
+    name: Netflix
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Netflix/Netflix.yaml
+  Disney+-rules:
+    behavior: classical
+    interval: 86400
+    name: Disney+
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Disney/Disney.yaml
+  HBO HK-rules:
+    behavior: classical
+    interval: 86400
+    name: HBO HK
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/HBOHK/HBOHK.yaml
+  HBO Asia-rules:
+    behavior: classical
+    interval: 86400
+    name: HBO
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/HBOAsia/HBOAsia.yaml
+  HBO USA-rules:
+    behavior: classical
+    interval: 86400
+    name: HBO USA
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/HBOUSA/HBOUSA.yaml
+  HBO-rules:
+    behavior: classical
+    interval: 86400
+    name: HBO
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/HBO/HBO.yaml
+  Hulu-rules:
+    behavior: classical
+    interval: 86400
+    name: Hulu
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Hulu/Hulu.yaml
+  Hulu USA-rules:
+    behavior: classical
+    interval: 86400
+    name: Hulu USA
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/HuluUSA/HuluUSA.yaml
+  Hulu JP-rules:
+    behavior: classical
+    interval: 86400
+    name: Hulu JP
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/HuluJP/HuluJP.yaml
+  Youtube-rules:
+    behavior: classical
+    interval: 86400
+    name: Youtube
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/YouTube/YouTube.yaml
+  Twitch-rules:
+    behavior: classical
+    interval: 86400
+    name: Twitch
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Twitch/Twitch.yaml
+  AmazonPrimeVideo-rules:
+    behavior: classical
+    interval: 86400
+    name: AmazonPrimeVideo
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/AmazonPrimeVideo/AmazonPrimeVideo.yaml
+  Spotify-rules:
+    behavior: classical
+    interval: 86400
+    name: Spotify
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Spotify/Spotify.yaml
   Clubhouse-rules:
-    behavior: domain
+    behavior: classical
     interval: 86400
     name: Clubhouse
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Clubhouse/Clubhouse.yaml
   ClubhouseIP-rules:
-    behavior: domain
+    behavior: classical
     interval: 86400
     name: ClubhouseIP
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/ClubhouseIP/ClubhouseIP.yaml
-  Twitter-rules:
-    behavior: domain
+
+
+#Wikipedia規則
+  Wikipedia-rules:
+    behavior: classical
     interval: 86400
-    name: Twitter
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Twitter/Twitter.yaml
+    name: Wikipedia
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Wikipedia/Wikipedia.yaml
+
+
+#Speedtest規則
   Speedtest-rules:
-    behavior: domain
+    behavior: classical
     interval: 86400
     name: Speedtest
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Speedtest/Speedtest.yaml
+
+
+#工具類規則
   Google-rules:
-    behavior: domain
+    behavior: classical
     interval: 86400
     name: Google
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Google/Google.yaml
   Microsoft-rules:
-    behavior: domain
+    behavior: classical
     interval: 86400
     name: Microsoft
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Microsoft/Microsoft.yaml
+  GitHub-rules:
+    behavior: classical
+    interval: 86400
+    name: GitHub
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/GitHub/Github.yaml
+
+
+#微博規則
   Weibo-rules:
-    behavior: domain
+    behavior: classical
     interval: 86400
     name: Weibo
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Weibo/Weibo.yaml
-  Mainland-rules:
+
+
+#境外分流規則
+  Global-rules:
+    behavior: classical
+    interval: 86400
+    name: Outside
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Global/Global_Classical.yaml
+  Global Domain-rules:
     behavior: domain
+    interval: 86400
+    name: Outside
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Global/Global_Domain.yaml
+  GlobalMedia-rules:
+    behavior: classical
+    interval: 86400
+    name: Outside
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Global/GlobalMedia_Classical.yaml
+  GlobalMedia Domain-rules:
+    behavior: domain
+    interval: 86400
+    name: Outside
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Global/GlobalMedia_Domain.yaml
+
+
+#中國大陸通用規則
+  Mainland Max-rules:
+    behavior: classical
+    interval: 86400
+    name: Mainland Max
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax.yaml
+  Mainland Max Domain-rules:
+    behavior: domain
+    interval: 86400
+    name: Mainland Max Domian
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax_Domain.yaml
+  Mainland Max IP-rules:
+    behavior: ipcidr
+    interval: 86400
+    name: Mainland Max IP
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax_IP.yaml
+  Mainland-rules:
+    behavior: classical
     interval: 86400
     name: Mainland
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/China/China.yaml
@@ -456,16 +656,12 @@ rule-providers:
     interval: 86400
     name: MainlandIP
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/ChinaIPs/ChinaIPs_IP.yaml
-  Global-rules:
-    behavior: domain
-    interval: 86400
-    name: Outside
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Global/Global_Classical.yaml
   ASN-rules:
-    behavior: domain
+    behavior: classical
     interval: 86400
     name: ASN
     url: https://raw.githubusercontent.com/Coldvvater/Clash/master/RuleSet/ASN_China.yaml
+
 #分流規則引用
 rules:
   - RULE-SET,Apple-rules,Apple
