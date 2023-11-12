@@ -433,6 +433,7 @@ proxy-groups:
   - name: 廣告攔截
     type: url-test
     proxies:
+      - DIRECT
       - REJECT
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Advertising.png
 
@@ -454,6 +455,16 @@ rule-providers:
 
 
 #廣告攔截規則
+  AD-REJET-Lite-rules:
+    behavior: classical
+    interval: 86400
+    name: 廣告攔截
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingLite/AdvertisingLite.yaml
+  AD-REJET-Domain-Lite-rules:
+    behavior: domain
+    interval: 86400
+    name: 廣告攔截
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingLite/AdvertisingLite_Domain.yaml
   AD-REJET-rules:
     behavior: classical
     interval: 86400
@@ -793,8 +804,10 @@ rules:
   - RULE-SET,小紅書-rules,小紅書
 
     #廣告攔截分流規則引用
-  - RULE-SET,AD-REJET-rules,廣告攔截
-  - DOMAIN,AD-REJET-Domain-rules,廣告攔截
+  - RULE-SET,AD-REJET-Domain-rules,廣告攔截
+  - DOMAIN,AD-REJET-Domain-Lite-rules,廣告攔截
+  #- RULE-SET,AD-REJET-rules,廣告攔截
+  #- DOMAIN,AD-REJET-Domain-rules,廣告攔截
 
     #LOLM分流規則引用
   - RULE-SET,LOLM-rules,LOLM
