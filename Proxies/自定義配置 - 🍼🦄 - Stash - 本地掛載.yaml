@@ -144,7 +144,6 @@ proxy-providers:
   Proxy-Canada:
     !!merge <<: *CharlesProxy #引用錨點內容
     filter: "加|加拿大|🇨🇦|CAN|(?i)Canada"
-    
   #加拿大節點
   Proxy-Canada01:
     !!merge <<: *FreeProxy #引用錨點內容
@@ -154,7 +153,6 @@ proxy-providers:
   Proxy-South Korea:
     !!merge <<: *CharlesProxy #引用錨點內容
     filter: "韓|韓國|韩|韩国|🇰🇷|KR|(?i)South Korea"
-    
   #韓國節點
   Proxy-South Korea01:
     !!merge <<: *FreeProxy #引用錨點內容
@@ -164,7 +162,6 @@ proxy-providers:
   Proxy-Turkey:
     !!merge <<: *CharlesProxy #引用錨點內容
     filter: "土|土耳其|土耳其|TR|(?i)Turkey"
-    
   #土耳其節點
   Proxy-Turkey01:
     !!merge <<: *FreeProxy #引用錨點內容
