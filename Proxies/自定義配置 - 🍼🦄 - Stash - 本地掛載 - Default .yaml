@@ -740,6 +740,11 @@ rule-providers:
  #Test
 
     #中國大陸通用規則
+  ASN-CN-rules:
+    behavior: classical
+    interval: 86400
+    name: ASN-CN
+    url: https://yfamily.vercel.app/rule/ASN-CN.list
   Mainland-rules:
     behavior: classical
     interval: 86400
@@ -837,9 +842,9 @@ rules:
   #- DOMAIN,GlobalMedia Domain-rules,Outside
 
   # 中國大陸規則引用
-  #- RULE-SET,ASN-rules,中國大陸
+  - RULE-SET,ASN-CN-rules,中國大陸
   # Mainland-rules
-  - RULE-SET,Mainland-rules,中國大陸
+  # RULE-SET,Mainland-rules,中國大陸
   #- DOMAIN,Mainland Domain-rules,中國大陸
   #- IP-CIDR,Mainland IP-rules,中國大陸
 #Mainland Max-rules
