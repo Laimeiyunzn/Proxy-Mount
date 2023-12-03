@@ -729,12 +729,16 @@ rule-providers:
     interval: 86400
     name: Mainland
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/China/China.yaml
-  MainlandIP-rules:
+  Mainland IP-rules:
     behavior: ipcidr
     interval: 86400
-    name: MainlandIP
+    name: Mainland IP
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/ChinaIPs/ChinaIPs_IP.yaml
-
+  Mainland Domain-rules:
+    behavior: domain
+    interval: 86400
+    name: Mainland Domain
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/China/China_Domain_For_Clash.txt
 
 
 #分流規則引用
@@ -819,8 +823,8 @@ rules:
   #- RULE-SET,ASN-rules,中國大陸
   # Mainland-rules
   - RULE-SET,Mainland-rules,中國大陸
-  #- DOMAIN,Mainland-rules,中國大陸
-  #- IPCIDR,MainlandIP-rules,中國大陸
+  - DOMAIN,Mainland Domain-rules,中國大陸
+  - IPCIDR,Mainland IP-rules,中國大陸
 #Mainland Max-rules
 #- RULE-SET,Mainland Max-rules,中國大陸
 #- DOMAIN,Mainland Max Domain-rules,中國大陸
