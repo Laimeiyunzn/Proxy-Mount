@@ -766,12 +766,12 @@ rules:
   - RULE-SET,小紅書-rules,小紅書
 
   # 廣告攔截分流規則引用
-  #- RULE-SET,AD-REJET-Lite-rules,廣告攔截
+  - RULE-SET,AD-REJET-Lite-rules,廣告攔截
   #- RULE-SET,AD-REJET-Domain-rules,廣告攔截
-  #- DOMAIN,AD-REJET-Domain-Lite-rules,廣告攔截
-  - RULE-SET,AD-REJET-rules,廣告攔截
-  - RULE-SET,AD-REJET-Classical-rules,廣告攔截
-  - DOMAIN,AD-REJET-Domain-rules,廣告攔截
+  - DOMAIN,AD-REJET-Domain-Lite-rules,廣告攔截
+  #- RULE-SET,AD-REJET-rules,廣告攔截
+  #- RULE-SET,AD-REJET-Classical-rules,廣告攔截
+  #- DOMAIN,AD-REJET-Domain-rules,廣告攔截
 
   # LOLM分流規則引用
   - RULE-SET,LOLM-rules,LOLM
