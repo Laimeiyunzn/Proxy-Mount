@@ -470,22 +470,22 @@ rule-providers:
     url: https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/Apple/Apple_Domain.yaml
 
     #廣告攔截規則
-  AD-REJET-rules:
-    behavior: classical
-    interval: 86400
-    name: 廣告攔截
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Advertising/Advertising.yaml
-  AD-REJET-Classical-rules:
-    behavior: classical
-    interval: 86400
-    name: 廣告攔截
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Advertising/Advertising_Classical.yaml
-  AD-REJET-Domain-rules:
-    behavior: domain
-    interval: 86400
-    name: 廣告攔截
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Advertising/Advertising_Domain_For_Clash.txt
-    format: text
+  #AD-REJET-rules:
+    #behavior: classical
+    #interval: 86400
+    #name: 廣告攔截
+    #url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Advertising/Advertising.yaml
+  #AD-REJET-Classical-rules:
+    #behavior: classical
+    #interval: 86400
+    #name: 廣告攔截
+    #url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Advertising/Advertising_Classical.yaml
+  #AD-REJET-Domain-rules:
+    #behavior: domain
+    #interval: 86400
+    #name: 廣告攔截
+    #url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Advertising/Advertising_Domain_For_Clash.txt
+    #format: text
   AD-REJET-Lite-rules:
     behavior: classical
     interval: 86400
@@ -740,26 +740,26 @@ rule-providers:
  #Test
 
     #中國大陸通用規則
-  ASN-CN-rules:
-    behavior: classical
-    interval: 86400
-    name: ASN-CN
-    url: https://yfamily.vercel.app/rule/ASN-CN.list
-  Mainland-rules:
-    behavior: classical
-    interval: 86400
-    name: Mainland
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/China/China.yaml
-  Mainland IP-rules:
-    behavior: ipcidr
-    interval: 86400
-    name: Mainland IP
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/ChinaIPs/ChinaIPs_IP.yaml
-  Mainland Domain-rules:
-    behavior: domain
-    interval: 86400
-    name: Mainland Domain
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/China/China_Domain_For_Clash.txt
+  #ASN-CN-rules:
+    #behavior: classical
+    #interval: 86400
+    #name: ASN-CN
+    #url: https://yfamily.vercel.app/rule/ASN-CN.list
+  #Mainland-rules:
+    #behavior: classical
+    #interval: 86400
+    #name: Mainland
+    #url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/China/China.yaml
+  #Mainland IP-rules:
+    #behavior: ipcidr
+    #interval: 86400
+    #name: Mainland IP
+    #url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/ChinaIPs/ChinaIPs_IP.yaml
+  #Mainland Domain-rules:
+    #behavior: domain
+    #interval: 86400
+    #name: Mainland Domain
+    #url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/China/China_Domain_For_Clash.txt
 
 
 #分流規則引用
@@ -842,16 +842,16 @@ rules:
   #- DOMAIN,GlobalMedia Domain-rules,Outside
 
   # 中國大陸規則引用
-  - RULE-SET,ASN-CN-rules,中國大陸
+  #- RULE-SET,ASN-CN-rules,中國大陸
   # Mainland-rules
   # RULE-SET,Mainland-rules,中國大陸
   #- DOMAIN,Mainland Domain-rules,中國大陸
   #- IP-CIDR,Mainland IP-rules,中國大陸
-#Mainland Max-rules
-#- RULE-SET,Mainland Max-rules,中國大陸
-#- DOMAIN,Mainland Max Domain-rules,中國大陸
-#- IPCIDR,Mainland Max Domain IP-rules,中國大陸
-#- GEOIP,CN,DIRECT
+  # Mainland Max-rules
+  #- RULE-SET,Mainland Max-rules,中國大陸
+  #- DOMAIN,Mainland Max Domain-rules,中國大陸
+  #- IPCIDR,Mainland Max Domain IP-rules,中國大陸
+  #- GEOIP,CN,DIRECT
 
 # ⚠注意：本配置目前主流使用ASN規則作為中國內地分流，如不想使用，請在ASN規則前面加#號注釋，同時把Mainland-rules、MainlandIP-rules及GEOIP前面的#號刪除放行使其生效。
 #- MATCH,漏網之魚
