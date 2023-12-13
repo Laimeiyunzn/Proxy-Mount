@@ -842,6 +842,7 @@ rules:
   #- DOMAIN,GlobalMedia Domain-rules,Outside
 
   # 中國大陸規則引用
+  - RULE-SET,Telegram-rules,中國大陸
   #- RULE-SET,ASN-CN-rules,中國大陸
   # Mainland-rules
   # RULE-SET,Mainland-rules,中國大陸
