@@ -27,9 +27,8 @@ dns:
   listen: 0.0.0.0:1053
   # DNS服務器
   default-nameserver:
-    - 114.114.114.114
-    - 114.114.115.115
-    - 119.29.29.29
+    額
+    119.29.29.29
     - 119.28.28.28
     - 223.5.5.5
     - 223.6.6.6
@@ -154,7 +153,7 @@ proxy-groups:
 
   # 台灣策略組
   - name: Taiwan
-    type: fallback
+    type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Taiwan.png
     use:
       - 🍼🦄️
@@ -168,7 +167,7 @@ proxy-groups:
 
     #新加坡策略組
   - name: Singapore
-    type: fallback
+    type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Singapore.png
     use:
       - 🍼🦄️
@@ -182,7 +181,7 @@ proxy-groups:
 
   # 美國策略組
   - name: United States American
-    type: fallback
+    type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/United_States.png
     use:
       - 🍼🦄️
@@ -196,7 +195,7 @@ proxy-groups:
 
   # 日本策略組
   - name: Japan
-    type: fallback
+    type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Japan.png
     use:
       - 🍼🦄️
@@ -211,7 +210,7 @@ proxy-groups:
 
   # 英國策略組
   - name: United Kingdom
-    type: fallback
+    type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/United_Kingdom.png
     use:
       - 🍼🦄️
@@ -226,7 +225,7 @@ proxy-groups:
 
   # 德國策略組
   - name: Germany
-    type: fallback
+    type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Germany.png
     use:
       - 🍼🦄️
@@ -241,7 +240,7 @@ proxy-groups:
 
   # 俄羅斯策略組
   - name: Russia
-    type: fallback
+    type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Russia.png
     use:
       - 🍼🦄️
@@ -256,7 +255,7 @@ proxy-groups:
 
   # 加拿大策略組
   - name: Canada
-    type: fallback
+    type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Canada.png
     use:
       - 🍼🦄️
@@ -271,7 +270,7 @@ proxy-groups:
 
   # 韓國策略組
   - name: South Korea
-    type: fallback
+    type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Korea.png
     use:
       - 🍼🦄️
@@ -286,7 +285,7 @@ proxy-groups:
 
   # 土耳其策略組
   - name: Turkey
-    type: fallback
+    type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Turkey.png
     use:
       - 🍼🦄️
@@ -301,7 +300,7 @@ proxy-groups:
 
     #其他國家策略組
   - name: Other Country
-    type: fallback
+    type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/United_Nations.png
     use:
       - 🍼🦄️
@@ -409,6 +408,8 @@ proxy-groups:
   - name: 流媒體
     type: select
     proxies:
+      - Hong Kong
+      - Macau
       - Taiwan
       - Singapore
       - United States American
