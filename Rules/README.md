@@ -1,2 +1,2 @@
 HK01
-https://github.com/Laimeiyunzn/Proxy-Mount/raw/Proxies/Rules/HK01.yaml
+https://raw.githubusercontent.com/Laimeiyunzn/Proxy-Mount/Proxies/Rules/HK01.yaml
