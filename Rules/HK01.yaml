@@ -1,0 +1,11 @@
+# NAME: HK01
+# AUTHOR: Laimeiyunzn
+# REPO: https://github.com/Laimeiyunzn/Proxy-Mount
+# UPDATED: 2023-12-23 16:55:56
+# DOMAIN: 2
+# DOMAIN-SUFFIX: 1
+# TOTAL: 3
+payload:
+  - DOMAIN,api.hk01.com
+  - DOMAIN,cdn.hk01.com
+  - DOMAIN-SUFFIX,hk01.com
