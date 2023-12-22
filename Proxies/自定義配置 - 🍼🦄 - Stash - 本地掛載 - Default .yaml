@@ -586,7 +586,7 @@ rule-providers:
     behavior: classical
     interval: 86400
     name: HK01
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/HK01/HK01.yaml
+    url: https://raw.githubusercontent.com/Laimeiyunzn/Proxy-Mount/Proxies/Rules/HK01.yaml
 
     #社交媒體規則
   Facebook-rules:
