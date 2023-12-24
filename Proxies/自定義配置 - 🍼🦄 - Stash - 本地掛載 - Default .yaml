@@ -392,7 +392,7 @@ proxy-groups:
       - Macau
       - United States American
       - DIRECT
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Stack.png
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Auto.png
 
   # 工具類策略組
   - name: 工具類
@@ -402,7 +402,7 @@ proxy-groups:
       - Macau
       - United States American
       - DIRECT
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Auto.png
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Stack.png
 
   # 社交媒體策略組
   - name: 社交媒體
