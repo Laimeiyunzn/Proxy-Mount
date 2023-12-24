@@ -384,6 +384,16 @@ proxy-groups:
       - DIRECT
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Pirate_Nation.png
 
+  # Speedtest策略組
+  - name: Speedtest
+    type: select
+    proxies:
+      - Hong Kong
+      - Macau
+      - United States American
+      - DIRECT
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Stack.png
+
   # 工具類策略組
   - name: 工具類
     type: select
@@ -392,7 +402,7 @@ proxy-groups:
       - Macau
       - United States American
       - DIRECT
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Stack.png
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Auto.png
 
   # 社交媒體策略組
   - name: 社交媒體
