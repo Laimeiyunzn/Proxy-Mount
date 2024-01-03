@@ -1,0 +1,18 @@
+name: 阿里雲盤簽到
+desc: 用於阿里雲盤每日自動簽到
+
+http:
+  mitm:
+    - "auth.alipan.com"
+
+cron:
+  # 阿里雲盤簽到
+  script:
+    - name: AliYunPanCheckIn
+      cron: '10 0 * * *'
+      timeout: 60
+ 
+script-providers:
+  AliYunPanCheckIn:
+    url: https://raw.githubusercontent.com/lowking/Scripts/master/ali/aliYunPanCheckIn.js
+    interval: 86400
