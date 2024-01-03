@@ -1,0 +1,19 @@
+desc: 阿里雲盤token獲取
+# 打開阿里雲盤獲取token（如獲取不到，等一段時間再打開）
+
+http:
+  mitm:
+    - "auth.alipan.com"
+
+  # 獲取阿里雲盤token
+  script:
+    - match: https:\/\/auth.alipan.com\/v2\/account\/token
+      name: AliYunPanGetToken
+      type: response
+      require-body: true
+      timeout: 30
+ 
+script-providers:
+  AliYunPanGetToken:
+    url: https://raw.githubusercontent.com/lowking/Scripts/master/ali/aliYunPanCheckIn.js
+    interval: 86400
