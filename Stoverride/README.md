@@ -3,3 +3,6 @@ https://raw.githubusercontent.com/Laimeiyunzn/Proxy-Mount/Proxies/Stoverride/阿
 
 阿里雲盤簽到
 https://raw.githubusercontent.com/Laimeiyunzn/Proxy-Mount/Proxies/Stoverride/阿里雲盤簽到.stoverride
+
+霸王茶姬簽到
+https://raw.githubusercontent.com/Laimeiyunzn/Proxy-Mount/Proxies/Stoverride/霸王茶姬簽到.stoverride
