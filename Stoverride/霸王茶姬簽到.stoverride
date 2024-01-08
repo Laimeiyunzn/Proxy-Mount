@@ -1,0 +1,32 @@
+name: "霸王茶姬小程式簽到"
+desc: "默认每天00:10自動簽到
+#!icon=https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj.png
+http:
+
+  script:
+
+    - match: ^https?:\/\/webapi\.qmai\.cn\/web\/catering\/integral\/sign\/signIn
+      name: "霸王茶姬token_4"
+      type: request
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
+  mitm:
+    - "webapi.qmai.cn"
+
+cron:
+  script:
+
+    - name: "霸王茶姬小程式签到_5"
+      cron: "10 0 * * *"
+      timeout: 60
+
+script-providers:
+  "霸王茶姬token_4":
+    url: https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj_token.js
+    interval: 86400
+  "霸王茶姬小程序签到_5":
+    url: https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj.js
+    interval: 86400
