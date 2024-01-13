@@ -6,3 +6,6 @@ https://raw.githubusercontent.com/Laimeiyunzn/Proxy-Mount/Proxies/Stoverride/阿
 
 霸王茶姬簽到
 https://raw.githubusercontent.com/Laimeiyunzn/Proxy-Mount/Proxies/Stoverride/CHAGEE.stoverridede
+
+TikTok-Unlock-US
+https://raw.githubusercontent.com/Laimeiyunzn/Proxy-Mount/raw/Proxies/Stoverride/TikTok-Unlock-US.stoverride
