@@ -1,4 +1,4 @@
-subscribe-url: http://sub.store/download/collection/%F0%9F%8D%BC%F0%9F%A6%84%EF%B8%8F?target=Stash
+subscribe-url: https://sub1.smallstrawberry.com/api/v1/client/subscribe?token=96a892cb821740a38899bb493fc43538
 #替換上面文字用於Stash獲取機場流量信息並在主頁顯示
 
 # 混合端口
@@ -61,7 +61,7 @@ proxy-providers:
 
   # 1.代理供應商
   Blocks:
-    url: https://pub-api-1.bianyuan.xyz/sub?target=clash&url=https%3A%2F%2Fsub1.smallstrawberry.com%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3D96a892cb821740a38899bb493fc43538&insert=false
+    url: https://sub1.smallstrawberry.com/api/v1/client/subscribe?token=96a892cb821740a38899bb493fc43538
     interval: 600
     type: http
     path: ./Blocks.yaml
