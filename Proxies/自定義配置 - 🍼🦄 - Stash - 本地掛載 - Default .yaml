@@ -706,6 +706,12 @@ rule-providers:
     interval: 86400
     name: Spotify
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Spotify/Spotify.yaml
+  MissAV-rules:
+    behavior: classical
+    interval: 86400
+    name: MissAV
+    url: https://raw.githubusercontent.com/Laimeiyunzn/Proxy-Mount/Proxies/Rules/MissAV.yaml
+
 
     #Wikipedia規則
   Wikipedia-rules:
