@@ -1,0 +1,11 @@
+# NAME: MissAV
+# AUTHOR: Laimeiyunzn
+# REPO: https://github.com/Laimeiyunzn/Proxy-Mount
+# UPDATED: 2024-02-03 10:30:56
+# DOMAIN: 2
+# DOMAIN-SUFFIX: 1
+# TOTAL: 3
+payload:
+  - DOMAIN,missav.com
+  - DOMAIN,client-rapi-missav.recombee.com
+  - DOMAIN-SUFFIX,missav.com
