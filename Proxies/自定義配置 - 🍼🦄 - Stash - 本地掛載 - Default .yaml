@@ -149,7 +149,7 @@ proxy-groups:
     lazy: true
     tolerance: 50
     include-all: true
-    filter: 澳門|澳门|🇲🇴|Macau|(?i)Macau
+    filter: 澳門|澳门|🇲🇴|MO|(?i)Macau
 
   # 台灣策略組
   - name: Taiwan
