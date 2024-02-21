@@ -1,1 +1,12 @@
-1
+# NAME: JMComic
+# AUTHOR: Laimeiyunzn
+# REPO: https://github.com/Laimeiyunzn/Proxy-Mount
+# UPDATED: 2024-02-21 22:54:16
+# DOMAIN: 3
+# DOMAIN-SUFFIX: 1
+# TOTAL: 4
+payload:
+  - DOMAIN,18comic.vip
+  - DOMAIN,cdn-msp.jmapiproxy2
+  - DOMAIN,ocsp.pki.goog
+  - DOMAIN-SUFFIX,18comic.vip
