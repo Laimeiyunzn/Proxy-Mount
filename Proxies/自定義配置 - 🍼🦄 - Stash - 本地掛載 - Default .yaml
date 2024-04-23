@@ -1,4 +1,4 @@
-subscribe-url: http://sub.store/download/collection/%F0%9F%8D%BC%F0%9F%A6%84%EF%B8%8F?target=Stash
+#subscribe-url: http://sub.store/download/collection/%F0%9F%8D%BC%F0%9F%A6%84%EF%B8%8F?target=Stash
 #替換上面文字用於Stash獲取機場流量信息並在主頁顯示
 
 # 混合端口
@@ -27,7 +27,6 @@ dns:
   listen: 0.0.0.0:1053
   # DNS服務器
   default-nameserver:
-    額
     119.29.29.29
     - 119.28.28.28
     - 223.5.5.5
