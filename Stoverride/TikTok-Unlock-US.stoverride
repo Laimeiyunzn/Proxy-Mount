@@ -1,13 +1,35 @@
-#!name=TikTok US
-#!desc=解锁 TikTok 美國地区
-#!icon= https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/TikTok.png
-#!category: TikTok Unlock
+name: |-
+  TikTok Unlock US Region
+desc: |-
+  TikTok  美國地區 解鎖
+author: |-
+  Semporia
+icon: |-
+  https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/TikTok.png
+category: |-
+  TikTok Unlock
+openUrl: |-
+  https://github.com/Semporia/TikTok-Unlock
+homepage: |-
+  https://github.com/Semporia/TikTok-Unlock
 
-[URL Rewrite]
-(?<=_region=)CN(?=&) US 307
-(?<=&mcc_mnc=)4 2 307
-^(https?:\/\/(tnc|dm)[\w-]+\.\w+\.com\/.+)(\?)(.+) $1$3 302
-(^https?:\/\/*\.\w{4}okv.com\/.+&.+)(\d{2}\.3\.\d)(.+) $118.0$3 302
+http:
 
-[MITM]
-hostname = %APPEND% *.tiktokv.com, *.byteoversea.com, *.tik-tokapi.com
+  mitm:
+    - "*.tiktokv.com"
+    - "*.byteoversea.com"
+    - "*.tik-tokapi.com"
+
+  url-rewrite:
+    - >-
+      (?<=_region=)CN(?=&) US 307
+    - >-
+      (?<=&mcc_mnc=)460[0-1][0-9](?=&) 310005 307
+    - >-
+      ^(https?:\/\/(tnc|dm)[\w-]+\.\w+\.com\/.+)(\?)(.+) $1$3 302
+    - >-
+      (?<=&carrier=)[%A-Z0-9]+(?=&) Verizon 307
+    - >-
+      (?<=tz_name=)Asia/Shanghai(?=&) America/New_York 307
+    - >-
+      (?<=timezone=)8(?=&) -4 307
