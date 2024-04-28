@@ -1,0 +1,16 @@
+# NAME: Artstation
+# AUTHOR: Laimeiyunzn
+# REPO: https://github.com/Laimeiyunzn/Proxy-Mount
+# UPDATED: 2024-04-28 16:34:56
+# DOMAIN: 7
+# DOMAIN-SUFFIX: 1
+# TOTAL: 8
+payload:
+  - DOMAIN,api.artstation.com
+  - DOMAIN,cdn.artstation.com
+  - DOMAIN,www.artstation.com
+  - DOMAIN,magazine.artstation.com
+  - DOMAIN,app-analytics-services.com
+  - DOMAIN,tacking,epicgames.com
+  - DOMAIN,ocsp.pki.goog
+  - DOMAIN-SUFFIX,artstation.com
