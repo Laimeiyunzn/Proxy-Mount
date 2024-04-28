@@ -1,0 +1,21 @@
+name: |-
+  📺 BiliBili:  Pro🏆
+desc: |-
+  去廣告 , 解鎖1080P高碼率「非大會員」
+icon: |-
+  https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/bilibili.png
+category: |-
+  📺 BiliBili:  Pro
+http:
+  mitm:
+    - "app.bilibili.com"
+  script:
+    - match: ^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo\?
+      name: Bili1080P1
+      type: response
+      require-body: true
+      timeout: 10
+script-providers:
+  Bili1080P1:
+    url: https://raw.githubusercontent.com/deezertidal/private/master/js-backup/Script/bilibili_json.js
+    interval: 86400
