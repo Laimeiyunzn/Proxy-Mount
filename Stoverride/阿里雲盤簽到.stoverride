@@ -1,6 +1,6 @@
 name: 阿里雲盤簽到
 desc: 用於阿里雲盤每日自動簽到
-
+category: 阿里雲盤簽到
 http:
   mitm:
     - "auth.alipan.com"
