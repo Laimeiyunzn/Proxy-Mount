@@ -32,7 +32,7 @@ cron:
 
 script-providers:
   "UNCLEQ_token":
-    url: https://raw.githubusercontent.com/Laimeiyunzn/Laimeiyunzn/Proxy-Mount/Stoverride/Lemontea/UNCLEQ_token.js
+    url: https://raw.githubusercontent.com/Laimeiyunzn/Proxy-Mount/Proxies/Stoverride/Lemontea/UNCLEQ_token.js
     interval: 86400
   "UncleLemontea簽到":
     url: https://raw.githubusercontent.com/Laimeiyunzn/Laimeiyunzn/Proxy-Mount/Stoverride/Lemontea/UncleLemontea.js
