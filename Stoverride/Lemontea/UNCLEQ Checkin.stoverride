@@ -9,7 +9,7 @@ http:
 
   script:
     - match: ^https?:\/\/(webapi|qmwebapi)\.qmai\.cn\/web\/(catering2-apiserver\/customer-suggest\/query-feedback-config|catering\/crm\/points-info)
-      name: "UncleLemonteatoken"
+      name: "UNCLEQ_token"
       type: request
       timeout: 30
       require-body: false
