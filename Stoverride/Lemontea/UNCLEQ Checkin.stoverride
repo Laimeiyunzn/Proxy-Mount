@@ -31,7 +31,7 @@ cron:
       timeout: 60
 
 script-providers:
-  "UncleLemonteatoken":
+  "UNCLEQ_token":
     url: https://raw.githubusercontent.com/Laimeiyunzn/Laimeiyunzn/Proxy-Mount/Stoverride/Lemontea/UNCLEQ_token.js
     interval: 86400
   "UncleLemontea簽到":
