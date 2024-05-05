@@ -22,7 +22,6 @@ http:
 
 cron:
   script:
-
     - name: "UncleLemontea簽到"
       cron: "00 10 * * *"
       timeout: 60
@@ -33,12 +32,11 @@ cron:
 
 script-providers:
   "UncleLemonteatoken":
-    url: https://raw.githubusercontent.com/Laimeiyunzn/Laimeiyunzn/Proxy-Mount/Stoverride/Lemontea/UncleLemontea token.js
+    url: https://raw.githubusercontent.com/Laimeiyunzn/Laimeiyunzn/Proxy-Mount/Stoverride/Lemontea/UncleLemontea_token.js
     interval: 86400
   "UncleLemontea簽到":
     url: https://raw.githubusercontent.com/Laimeiyunzn/Laimeiyunzn/Proxy-Mount/Stoverride/Lemontea/UncleLemontea.js
     interval: 86400
-
   "UncleLemontea2024簽到":
-    url: https://raw.githubusercontent.com/Laimeiyunzn/Laimeiyunzn/Proxy-Mount/Stoverride/Lemontea/UncleLemontea.js
+    url: https://raw.githubusercontent.com/Laimeiyunzn/Laimeiyunzn/Proxy-Mount/Stoverride/Lemontea/UncleLemontea2024.js
     interval: 86400
