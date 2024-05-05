@@ -15,5 +15,5 @@ cron:
  
 script-providers:
   AirportCheckIn:
-    url: https://raw.githubusercontent.com/lowking/Scripts/master/ali/aliYunPanCheckIn.js
+    url: https://raw.githubusercontent.com/Laimeiyunzn/Proxy-Mount/Js/Airport Check in.js
     interval: 86400
