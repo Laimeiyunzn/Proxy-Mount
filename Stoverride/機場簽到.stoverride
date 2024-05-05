@@ -1,0 +1,19 @@
+name: 機場簽到
+desc: 用於機場每日自動簽到
+category: 機場簽到
+icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Alibaba_Cloud.png
+http:
+  mitm:
+    - "dounai.pro/auth/login"
+
+cron:
+  # 機場簽到
+  script:
+    - name: AirportCheckIn
+      cron: '10 0 * * *'
+      timeout: 60
+ 
+script-providers:
+  AirportCheckIn:
+    url: https://raw.githubusercontent.com/lowking/Scripts/master/ali/aliYunPanCheckIn.js
+    interval: 86400
