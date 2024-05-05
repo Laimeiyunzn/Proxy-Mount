@@ -15,5 +15,5 @@ cron:
  
 script-providers:
   AirportCheckIn:
-    url: https://raw.githubusercontent.com/Laimeiyunzn/Proxy-Mount/Js/Airport Check in.js
+    url: https://raw.githubusercontent.com/Laimeiyunzn/Proxy-Mount/Proxies/Js/Airport%20Check%20in.js
     interval: 86400
