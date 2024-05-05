@@ -1,7 +1,7 @@
 name: 機場簽到
 desc: 用於機場每日自動簽到
 category: 機場簽到
-icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Alibaba_Cloud.png
+icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Airport.png
 http:
   mitm:
     - "dounai.pro/auth/login"
