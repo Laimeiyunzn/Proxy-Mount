@@ -1,29 +1,15 @@
 /*
-Airport Check in
+Check in
 
- - 站点签到脚本
- - 流量详情显示
- - 多站签到支持
- - 多类站点支持
-
-————————————————————
-
-【机场签到Cookie版】修改自Neurogram
-Modified by evilbutcher
-
-【仓库地址】https://github.com/evilbutcher/Quantumult_X/tree/master（欢迎star🌟）
-
-【BoxJs】https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/evilbutcher.boxjs.json
-
-【致谢】
-使用Chavy的Env.js修改了原脚本，支持Quantumult X和Loon，并支持BoxJs
+ - 站點簽到腳本
+ - 流量詳情顯示
+ - 多站簽到支持
+ - 多類站點支持
 
 自行写cron，例如 0 1 0 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkin_env.js
 
-————————————————————
-
 */
-const $ = new Env("机场签到");
+const $ = new Env("機場簽到");
 $.autoLogout = true;
 
 if (
@@ -33,7 +19,7 @@ if (
   var acc = $.getdata("evil_checkintitle");
   accounts = acc.split("，");
 } else {
-  $.msg("机场签到", "", "请在 BoxJs 检查标题填写是否正确", "http://boxjs.com");
+  $.msg("機場簽到", "", "請在 BoxJs 檢查標題填寫是否正確", "http://boxjs.com");
 }
 
 if (
@@ -43,7 +29,7 @@ if (
   var ur = $.getdata("evil_checkinlogin");
   urls = ur.split("，");
 } else {
-  $.msg("机场签到", "", "请在 BoxJs 检查链接填写是否正确", "http://boxjs.com");
+  $.msg("機場簽到", "", "請在 BoxJs 檢查連結填寫是否正確", "http://boxjs.com");
 }
 
 if (
@@ -53,7 +39,7 @@ if (
   var ema = $.getdata("evil_checkinemail");
   emails = ema.split("，");
 } else {
-  $.msg("机场签到", "", "请在 BoxJs 检查邮箱填写是否正确", "http://boxjs.com");
+  $.msg("機場簽到", "", "請在 BoxJs 檢查郵箱填寫是否正確", "http://boxjs.com");
 }
 
 if (
@@ -63,7 +49,7 @@ if (
   var pwd = $.getdata("evil_checkinpwd");
   passwords = pwd.split("，");
 } else {
-  $.msg("机场签到", "", "请在 BoxJs 检查密码填写是否正确", "http://boxjs.com");
+  $.msg("機場簽到", "", "請在 BoxJs 檢查密碼填寫是否正確", "http://boxjs.com");
 }
 
 $.autoLogout = JSON.parse($.getdata("evil_autoLogout") || $.autoLogout);
@@ -72,7 +58,7 @@ $.autoLogout = JSON.parse($.getdata("evil_autoLogout") || $.autoLogout);
   await launch();
 })()
   .catch((e) => {
-    $.log("", `❌失败! 原因: ${e}!`, "");
+    $.log("", `❌失敗! 原因: ${e}!`, "");
   })
   .finally(() => {
     $.done();
@@ -117,25 +103,25 @@ function login(url, email, password, title) {
       loginPath +
       `?email=${email}&passwd=${password}&rumber-me=week`,
   };
-  console.log(loginPath + " 保护隐私隐去登录信息");
+  console.log(loginPath + " 保護私隐去除登陸信息");
   return new Promise((resolve) => {
     $.post(table, function (error, response, data) {
       if (error) {
         console.log(JSON.stringify(error));
-        $.msg(title + "登录失败", JSON.stringify(error), "");
+        $.msg(title + "登錄失敗", JSON.stringify(error), "");
         resolve();
       } else {
         if (
           JSON.parse(data).msg.match(
-            /邮箱或者密码错误|Mail or password is incorrect/
+            /郵箱或者密碼錯誤|Mail or password is incorrect/
           )
         ) {
           console.log(response);
-          $.msg(title + "邮箱或者密码错误", "", "");
+          $.msg(title + "郵箱或者密碼錯誤", "", "");
           $.loginok = false;
         } else {
           $.loginok = true;
-          $.log("登陆成功");
+          $.log("登錄成功");
         }
         resolve();
       }
@@ -154,16 +140,16 @@ function checkin(url, email, password, title) {
     $.post(checkinreqest, function (error, response, data) {
       if (error) {
         console.log(JSON.stringify(error));
-        $.msg(title + "签到失败", JSON.stringify(error), "");
+        $.msg(title + "簽到失敗", JSON.stringify(error), "");
         resolve();
       } else {
         if (data.match(/\"msg\"\:/)) {
           $.checkinok = true;
           $.checkindatamsg = JSON.parse(data).msg;
-          $.log("签到成功");
+          $.log("簽到成功");
         } else {
           $.checkinok = false;
-          $.log("签到失败");
+          $.log("簽到失敗");
         }
         resolve();
       }
@@ -189,7 +175,7 @@ function dataResults(url, checkinMsg, title) {
           let todatUsed = flowData[1];
           let restData = flowData[2];
           result.push(
-            `今日：${todatUsed}\n已用：${usedData}\n剩余：${restData}`
+            `今日：${todatUsed}\n已用：${usedData}\n剩餘：${restData}`
           );
         }
         let userInfo = data.match(/ChatraIntegration\s*=\s*({[^}]+)/);
@@ -199,7 +185,7 @@ function dataResults(url, checkinMsg, title) {
           let class_expire = userInfo[1].match(/Class_Expire.+'(.+)'/)[1];
           let money = userInfo[1].match(/Money.+'(.+)'/)[1];
           result.push(
-            `用户名：${user_name}\n用户等级：lv${user_class}\n余额：${money}\n到期时间：${class_expire}`
+            `用戶名：${user_name}\n用戶等級：lv${user_class}\n余额：${money}\n到期时间：${class_expire}`
           );
         }
         if (result.length != 0) {
@@ -212,24 +198,24 @@ function dataResults(url, checkinMsg, title) {
           result.push(`今日：${todayUsed}`);
         }
         let usedData = data.match(
-          /(Used Transfer|>过去已用|>已用|>总已用|\"已用)[^B]+/
+          /(Used Transfer|>過去已用|>已用|>總已用|\"已用)[^B]+/
         );
         if (usedData) {
           usedData = flowFormat(usedData[0]);
           result.push(`已用：${usedData}`);
         }
         let restData = data.match(
-          /(Remaining Transfer|>剩余流量|>流量剩余|>可用|\"剩余)[^B]+/
+          /(Remaining Transfer|>剩餘流量|>流量剩餘|>可用|\"剩餘)[^B]+/
         );
         if (restData) {
           restData = flowFormat(restData[0]);
-          result.push(`剩余：${restData}`);
+          result.push(`剩餘：${restData}`);
         }
         if (result.length != 0) {
           resultData = result.join("\n");
         }
       }
-      let flowMsg = resultData == "" ? "流量信息获取失败" : resultData;
+      let flowMsg = resultData == "" ? "流量信息獲取失敗" : resultData;
       $.msg(title, checkinMsg, flowMsg);
       resolve();
     });
@@ -639,8 +625,8 @@ function Env(name, opts) {
      *    :$.time('yyyyMMddHHmmssS')
      *    y:年 M:月 d:日 q:季 H:时 m:分 s:秒 S:毫秒
      *    其中y可选0-4位占位符、S可选0-1位占位符，其余可选0-2位占位符
-     * @param {string} fmt 格式化参数
-     * @param {number} 可选: 根据指定时间戳返回格式化日期
+     * @param {string} fmt 格式化參數
+     * @param {number} 可選: 根據指定時間戳返回格式化日期
      *
      */
     time(fmt, ts = null) {
