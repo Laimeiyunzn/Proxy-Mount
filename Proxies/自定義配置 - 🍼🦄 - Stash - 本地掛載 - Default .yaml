@@ -330,6 +330,7 @@ proxy-groups:
     proxies:
       - Hong Kong
       - Macau
+      - United States American
       - DIRECT
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Dinosaur.png
 
