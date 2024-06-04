@@ -711,6 +711,11 @@ rule-providers:
     interval: 86400
     name: MissAV
     url: https://raw.githubusercontent.com/Laimeiyunzn/Proxy-Mount/Proxies/Rules/MissAV.yaml
+  Pornhub-rules:
+    behavior: classical
+    interval: 86400
+    name: Pornhub
+    url: https://raw.githubusercontent.com/Laimeiyunzn/Proxy-Mount/Proxies/Rules/Pornhub.yaml
 
 
     #Wikipedia規則
@@ -840,6 +845,8 @@ rules:
   - RULE-SET,Twitch-rules,流媒體
   - RULE-SET,AmazonPrimeVideo-rules,流媒體
   - RULE-SET,Spotify-rules,流媒體
+  - RULE-SET,MissAV-rules,流媒體
+  - RULE-SET,Pornhub-rules,流媒體
 
   # Wikipedia分流規則引用
   - RULE-SET,Wikipedia-rules,Wikipedia
