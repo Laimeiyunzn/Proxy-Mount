@@ -829,6 +829,7 @@ rules:
   - RULE-SET,Discord-rules,社交媒體
   - RULE-SET,Instagram-rules,社交媒體
   - RULE-SET,Reddit-rules,社交媒體
+  - RULE-SET,Telegram-rules,社交媒體
 
   # 流媒體分流規則引用
   - RULE-SET,TikTok-rules,流媒體
