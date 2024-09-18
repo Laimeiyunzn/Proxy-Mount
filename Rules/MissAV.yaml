@@ -8,6 +8,7 @@
 payload:
   - DOMAIN,missav.com
   - DOMAIN,myavlive.com
+  - DOMAIN,go.myavlive.com
   - DOMAIN,client-rapi-missav.recombee.com
   - DOMAIN-SUFFIX,missav.com
   - DOMAIN-SUFFIX,myavlive.com
