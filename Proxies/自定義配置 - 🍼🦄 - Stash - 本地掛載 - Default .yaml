@@ -414,6 +414,16 @@ proxy-groups:
       - DIRECT
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Facebook.png
 
+  - name: Telegram
+    type: select
+    proxies:
+      - Hong Kong
+      - Macau
+      - United States American
+      - DIRECT
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Telegram.png
+
+
   # 流媒體策略組
   - name: 流媒體
     type: select
@@ -829,7 +839,7 @@ rules:
   - RULE-SET,Discord-rules,社交媒體
   - RULE-SET,Instagram-rules,社交媒體
   - RULE-SET,Reddit-rules,社交媒體
-  - RULE-SET,Telegram-rules,社交媒體
+  - RULE-SET,Telegram-rules,Telegram
 
   # 流媒體分流規則引用
   - RULE-SET,TikTok-rules,流媒體
