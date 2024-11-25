@@ -80,6 +80,13 @@ proxy-providers:
     #interval: 600
 #添加新的的網絡代理供應商「xxx」處填入
 
+  # 5.代理供應商
+    #本地掛載:
+    #url: xxx
+    #interval: 600
+#添加新的的網絡代理供應商「xxx」處填入
+
+
 # 策略組
 proxy-groups:
 
