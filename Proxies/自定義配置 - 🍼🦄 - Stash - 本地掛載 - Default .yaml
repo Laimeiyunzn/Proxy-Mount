@@ -376,7 +376,6 @@ proxy-groups:
     proxies:
       - Hong Kong
       - Macau
-      - Singapore
       - United States American
       - Germany
       - DIRECT
