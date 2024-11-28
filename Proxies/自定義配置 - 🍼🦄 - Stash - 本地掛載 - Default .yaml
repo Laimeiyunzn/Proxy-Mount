@@ -337,6 +337,7 @@ proxy-groups:
     proxies:
       - Hong Kong
       - Macau
+      - Singapore
       - United States American
       - DIRECT
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Dinosaur.png
@@ -375,6 +376,7 @@ proxy-groups:
     proxies:
       - Hong Kong
       - Macau
+      - Singapore
       - United States American
       - Germany
       - DIRECT
@@ -386,6 +388,7 @@ proxy-groups:
     proxies:
       - Hong Kong
       - Macau
+      - Singapore
       - United States American
       - Germany
       - DIRECT
@@ -397,6 +400,7 @@ proxy-groups:
     proxies:
       - Hong Kong
       - Macau
+      - Singapore
       - United States American
       - DIRECT
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Auto.png
@@ -407,6 +411,7 @@ proxy-groups:
     proxies:
       - Hong Kong
       - Macau
+      - Singapore
       - United States American
       - DIRECT
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Stack.png
@@ -417,6 +422,7 @@ proxy-groups:
     proxies:
       - Hong Kong
       - Macau
+      - Singapore
       - United States American
       - DIRECT
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Facebook.png
@@ -426,6 +432,7 @@ proxy-groups:
     proxies:
       - Hong Kong
       - Macau
+      - Singapore
       - United States American
       - DIRECT
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Telegram.png
