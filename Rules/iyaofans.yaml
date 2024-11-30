@@ -1,0 +1,10 @@
+# NAME: iyaofans
+# AUTHOR: Laimeiyunzn
+# REPO: https://github.com/Laimeiyunzn/Proxy-Mount
+# UPDATED: 2024-11-30 22:58:56
+# DOMAIN: 1
+# DOMAIN-SUFFIX: 1
+# TOTAL: 2
+payload:
+  - DOMAIN,iyaofans.com
+  - DOMAIN-SUFFIX,iyaofans.com
