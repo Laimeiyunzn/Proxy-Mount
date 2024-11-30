@@ -436,7 +436,6 @@ proxy-groups:
       - DIRECT
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Telegram.png
 
-
   # 流媒體策略組
   - name: 流媒體
     type: select
@@ -478,6 +477,18 @@ proxy-groups:
       - DIRECT
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Unlock.png
 
+  # 鹹嘢 策略組
+  - name: 鹹嘢
+    type: select
+    proxies:
+      - DIRECT
+      - Hong Kong
+      - Macau
+      - Japan
+      - Singapore
+      - United States American
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Pornhub.png
+
   # 廣告攔截策略組
   - name: 廣告攔截
     type: select
@@ -491,17 +502,20 @@ proxy-groups:
 #遠程訂閱規則集合
 rule-providers:
 
+
   #Apple規則
   Apple-rules:
     behavior: classical
     interval: 86400
     name: Apple
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple.yaml
+
   Apple Domain-rules:
     behavior: domain
     interval: 86400
     name: Apple
     url: https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/Apple/Apple_Domain.yaml
+
 
     #廣告攔截規則
   #AD-REJET-rules:
@@ -509,22 +523,26 @@ rule-providers:
     #interval: 86400
     #name: 廣告攔截
     #url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Advertising/Advertising.yaml
+
   #AD-REJET-Classical-rules:
     #behavior: classical
     #interval: 86400
     #name: 廣告攔截
     #url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Advertising/Advertising_Classical.yaml
+
   #AD-REJET-Domain-rules:
     #behavior: domain
     #interval: 86400
     #name: 廣告攔截
     #url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Advertising/Advertising_Domain_For_Clash.txt
     #format: text
+
   AD-REJET-Lite-rules:
     behavior: classical
     interval: 86400
     name: 廣告攔截
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingLite/AdvertisingLite.yaml
+
 
     #LOLM規則
   LOLM-rules:
@@ -533,17 +551,20 @@ rule-providers:
     name: LOLM
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/TencentLoLMobile/TencentLoLMobile.yaml
 
+
     #Bilibili規則
   Bilibili-rules:
     behavior: classical
     interval: 86400
     name: Bilibili
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/BiliBili/BiliBili.yaml
+
   BilibiliIntl-rules:
     behavior: classical
     interval: 86400
     name: BilibiliIntl
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BiliBiliIntl/BiliBiliIntl.yaml
+
 
     #小紅書規則
   小紅書-rules:
@@ -552,47 +573,56 @@ rule-providers:
     name: XiaoHongShu
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/XiaoHongShu/XiaoHongShu.yaml
 
+
     #GAME規則
   Steam-rules:
     behavior: classical
     interval: 86400
     name: Steam
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Steam/Steam.yaml
+
   EA-rules:
     behavior: classical
     interval: 86400
     name: EA
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/EA/EA.yaml
+
   Rockstar-rules:
     behavior: classical
     interval: 86400
     name: Rockstar
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Rockstar/Rockstar.yaml
+
   Xbox-rules:
     behavior: classical
     interval: 86400
     name: Xbox
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Xbox/Xbox.yaml
+
   WildRift-rules:
     behavior: classical
     interval: 86400
     name: WildRift
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/WildRift/WildRift.yaml
+
   PlayStation-rules:
     behavior: classical
     interval: 86400
     name: PlayStation
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/PlayStation/PlayStation.yaml
+
   Epic-rules:
     behavior: classical
     interval: 86400
     name: Epic
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Epic/Epic.yaml
+
   Ubisoft-rules:
     behavior: classical
     interval: 86400
     name: Ubisoft
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/UBI/UBI.yaml
+
   Riot-rules:
     behavior: classical
     interval: 86400
@@ -605,16 +635,19 @@ rule-providers:
     interval: 86400
     name: TVB
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/TVB/TVB.yaml
+
   myTVSUPER-rules:
     behavior: classical
     interval: 86400
     name: myTVSUPER
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/myTVSUPER/myTVSUPER.yaml
+
   ViuTV-rules:
     behavior: classical
     interval: 86400
     name: ViuTV
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/ViuTV/ViuTV.yaml
+
   HK01-rules:
     behavior: classical
     interval: 86400
@@ -627,36 +660,43 @@ rule-providers:
     interval: 86400
     name: Facebook
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Facebook/Facebook.yaml
+
   Whatsapp-rules:
     behavior: classical
     interval: 86400
     name: Whatsapp
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Whatsapp/Whatsapp.yaml
+
   Twitter-rules:
     behavior: classical
     interval: 86400
     name: Twitter
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Twitter/Twitter.yaml
+
   Telegram-rules:
     behavior: classical
     interval: 86400
     name: Telegram
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Telegram/Telegram.yaml
+
   Discord-rules:
     behavior: classical
     interval: 86400
     name: Discord
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Discord/Discord.yaml
+
   Instagram-rules:
     behavior: classical
     interval: 86400
     name: Instagram
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Instagram/Instagram.yaml
+
   Reddit-rules:
     behavior: classical
     interval: 86400
     name: Reddit
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Reddit/Reddit.yaml
+
 
     #流媒體規則
   TikTok-rules:
@@ -664,93 +704,85 @@ rule-providers:
     interval: 86400
     name: TikTok
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.yaml
+
   Netflix-rules:
     behavior: classical
     interval: 86400
     name: Netflix
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Netflix/Netflix.yaml
+
   Disney+-rules:
     behavior: classical
     interval: 86400
     name: Disney+
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Disney/Disney.yaml
+
   HBO HK-rules:
     behavior: classical
     interval: 86400
     name: HBO HK
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/HBOHK/HBOHK.yaml
+
   HBO Asia-rules:
     behavior: classical
     interval: 86400
     name: HBO
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/HBOAsia/HBOAsia.yaml
+
   HBO USA-rules:
     behavior: classical
     interval: 86400
     name: HBO USA
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/HBOUSA/HBOUSA.yaml
+
   HBO-rules:
     behavior: classical
     interval: 86400
     name: HBO
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/HBO/HBO.yaml
+
   Hulu-rules:
     behavior: classical
     interval: 86400
     name: Hulu
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Hulu/Hulu.yaml
+
   Hulu USA-rules:
     behavior: classical
     interval: 86400
     name: Hulu USA
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/HuluUSA/HuluUSA.yaml
+
   Hulu JP-rules:
     behavior: classical
     interval: 86400
     name: Hulu JP
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/HuluJP/HuluJP.yaml
+
   Youtube-rules:
     behavior: classical
     interval: 86400
     name: Youtube
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/YouTube/YouTube.yaml
+
   Twitch-rules:
     behavior: classical
     interval: 86400
     name: Twitch
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Twitch/Twitch.yaml
+
   AmazonPrimeVideo-rules:
     behavior: classical
     interval: 86400
     name: AmazonPrimeVideo
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/AmazonPrimeVideo/AmazonPrimeVideo.yaml
+
   Spotify-rules:
     behavior: classical
     interval: 86400
     name: Spotify
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Spotify/Spotify.yaml
-  MissAV-rules:
-    behavior: classical
-    interval: 86400
-    name: MissAV
-    url: https://raw.githubusercontent.com/Laimeiyunzn/Proxy-Mount/Proxies/Rules/MissAV.yaml
-  Pornhub-rules:
-    behavior: classical
-    interval: 86400
-    name: Pornhub
-    url: https://raw.githubusercontent.com/Laimeiyunzn/Proxy-Mount/Proxies/Rules/Pornhub.yaml
-  iyaofans-rules:
-    behavior: classical
-    interval: 86400
-    name: MissAV
-    url: https://raw.githubusercontent.com/Laimeiyunzn/Proxy-Mount/Proxies/Rules/iyaofans.yaml
-
-    #Wikipedia規則
-  Wikipedia-rules:
-    behavior: classical
-    interval: 86400
-    name: Wikipedia
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Wikipedia/Wikipedia.yaml
+  
 
     #Speedtest規則
   Speedtest-rules:
@@ -758,6 +790,7 @@ rule-providers:
     interval: 86400
     name: Speedtest
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Speedtest/Speedtest.yaml
+
 
     #工具類規則
   Google-rules:
@@ -778,6 +811,35 @@ rule-providers:
     name: GitHub
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GitHub/GitHub.yaml
 
+
+    #鹹嘢規則
+  MissAV-rules:
+    behavior: classical
+    interval: 86400
+    name: MissAV
+    url: https://raw.githubusercontent.com/Laimeiyunzn/Proxy-Mount/Proxies/Rules/MissAV.yaml
+
+  Pornhub-rules:
+    behavior: classical
+    interval: 86400
+    name: Pornhub
+    url: https://raw.githubusercontent.com/Laimeiyunzn/Proxy-Mount/Proxies/Rules/Pornhub.yaml
+
+  iyaofans-rules:
+    behavior: classical
+    interval: 86400
+    name: MissAV
+    url: https://raw.githubusercontent.com/Laimeiyunzn/Proxy-Mount/Proxies/Rules/iyaofans.yaml
+
+
+    #Wikipedia規則
+  Wikipedia-rules:
+    behavior: classical
+    interval: 86400
+    name: Wikipedia
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Wikipedia/Wikipedia.yaml
+
+
     #微博規則
   Weibo-rules:
     behavior: classical
@@ -785,8 +847,10 @@ rule-providers:
     name: Weibo
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Weibo/Weibo.yaml
 
+
     #境外分流規則
  #Test
+
 
     #中國大陸通用規則
   #ASN-CN-rules:
@@ -794,16 +858,19 @@ rule-providers:
     #interval: 86400
     #name: ASN-CN
     #url: https://yfamily.vercel.app/rule/ASN-CN.list
+
   #Mainland-rules:
     #behavior: classical
     #interval: 86400
     #name: Mainland
     #url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/China/China.yaml
+
   #Mainland IP-rules:
     #behavior: ipcidr
     #interval: 86400
     #name: Mainland IP
     #url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/ChinaIPs/ChinaIPs_IP.yaml
+
   #Mainland Domain-rules:
     #behavior: domain
     #interval: 86400
@@ -873,8 +940,11 @@ rules:
   - RULE-SET,Twitch-rules,流媒體
   - RULE-SET,AmazonPrimeVideo-rules,流媒體
   - RULE-SET,Spotify-rules,流媒體
-  - RULE-SET,MissAV-rules,流媒體
-  - RULE-SET,Pornhub-rules,流媒體
+
+  # 鹹嘢 分流規則引用
+  - RULE-SET,MissAV-rules,鹹嘢
+  - RULE-SET,Pornhub-rules,鹹嘢
+  - RULE-SET,iyaofans-rules,鹹嘢
 
   # Wikipedia分流規則引用
   - RULE-SET,Wikipedia-rules,Wikipedia
