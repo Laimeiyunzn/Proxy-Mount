@@ -739,7 +739,11 @@ rule-providers:
     interval: 86400
     name: Pornhub
     url: https://raw.githubusercontent.com/Laimeiyunzn/Proxy-Mount/Proxies/Rules/Pornhub.yaml
-
+  iyaofans-rules:
+    behavior: classical
+    interval: 86400
+    name: MissAV
+    url: https://raw.githubusercontent.com/Laimeiyunzn/Proxy-Mount/Proxies/Rules/iyaofans.yaml
 
     #Wikipedia規則
   Wikipedia-rules:
