@@ -779,7 +779,7 @@ rules:
   - RULE-SET,Google-rules,工具類
   - RULE-SET,Microsoft-rules,工具類
   - RULE-SET,GitHub-rules,工具類
-  - RULE-SET,Artstation-rules,工具類
+  - RULE-SET,ArtStation-rules,工具類
   - RULE-SET,Pinterest-rules,工具類
 
   # 境外分流規則引用
