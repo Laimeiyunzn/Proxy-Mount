@@ -685,13 +685,13 @@ rule-providers:
   Pinterest-rules:
     behavior: domain
     interval: 86400
-    name: GitHub
-    url: https://raw.githubusercontent.com/Laimeiyunzn/Proxy-Mount/Proxies/Rules/Artstation.yaml
-  Artsation-rules:
+    name: Pinterest
+    url: https://clashios.app/static/rules/pinterest-domain-set.yaml
+  ArtStation-rules:
     behavior: domain
     interval: 86400
-    name: GitHub
-    url: https://clashios.app/static/rules/pinterest-domain-set.yaml
+    name: ArtStation
+    url: https://raw.githubusercontent.com/Laimeiyunzn/Proxy-Mount/Proxies/Rules/Artstation.yaml
 
     #境外分流規則
  #Test
@@ -779,7 +779,7 @@ rules:
   - RULE-SET,Google-rules,工具類
   - RULE-SET,Microsoft-rules,工具類
   - RULE-SET,GitHub-rules,工具類
-  - RULE-SET,Artsation-rules,工具類
+  - RULE-SET,Artstation-rules,工具類
   - RULE-SET,Pinterest-rules,工具類
 
   # 境外分流規則引用
