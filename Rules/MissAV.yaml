@@ -11,5 +11,7 @@ payload:
   - DOMAIN,myavlive.com
   - DOMAIN,go.myavlive.com
   - DOMAIN,client-rapi-missav.recombee.com
+  - DOMAIN,missav.ws
+  - DOMAIN,jable.tv
   - DOMAIN-SUFFIX,missav.com
   - DOMAIN-SUFFIX,myavlive.com
