@@ -7,6 +7,7 @@
 # TOTAL: 8
 payload:
   - DOMAIN,.artstation.com
+  - DOMAIN,ws.artstation.com
   - DOMAIN,api.artstation.com
   - DOMAIN,cdn.artstation.com
   - DOMAIN,www.artstation.com
