@@ -60,7 +60,7 @@ proxy-providers:
 
   # 1.代理供應商
   🦄️:
-    url: http://sub.store/download/collection/%F0%9F%A6%84%EF%B8%8F?target=Stashtarget=Stash
+    url: http://sub.store/download/collection/%F0%9F%A6%84%EF%B8%8F?target=Stash
     interval: 600
 
   # 2.代理供應商
