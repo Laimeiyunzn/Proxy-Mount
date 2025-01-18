@@ -717,7 +717,7 @@ rule-providers:
     behavior: domain
     interval: 86400
     name: ArtStation
-    url: https://raw.githubusercontent.com/Laimeiyunzn/Proxy-Mount/Proxies/Rules/Artstation.yaml
+    url: https://raw.githubusercontent.com/Laimeiyunzn/Proxy-Mount/refs/heads/Proxies/Rules/Artstation.yaml
 
   Pinterest-rules:
     behavior: domain
