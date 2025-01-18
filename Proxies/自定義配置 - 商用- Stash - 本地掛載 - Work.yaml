@@ -60,7 +60,7 @@ proxy-providers:
 
   # 1.代理供應商
   🦄️:
-    url: http://sub.store/download/collection/%F0%9F%8D%BC%F0%9F%A6%84%EF%B8%8F?target=Stash
+    url: http://sub.store/download/collection/%F0%9F%A6%84%EF%B8%8F?target=Stashtarget=Stash
     interval: 600
 
   # 2.代理供應商
@@ -120,7 +120,7 @@ proxy-groups:
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Hong_Kong.png
     use:
-      - 🦄️
+      - 🍼🦄️
       - FreeProxy
       #-
     interval: 120
@@ -134,7 +134,7 @@ proxy-groups:
     type: url-test
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Game.png
     use:
-      - 🦄️
+      - 🍼🦄️
       - FreeProxy
       #-
     interval: 120
@@ -148,7 +148,7 @@ proxy-groups:
     type: url-test
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Macao.png
     use:
-      - 🦄️
+      - 🍼🦄️
       - FreeProxy
       #-
     interval: 120
@@ -162,7 +162,7 @@ proxy-groups:
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Taiwan.png
     use:
-      - 🦄️
+      - 🍼🦄️
       - FreeProxy
       #-
     interval: 120
@@ -176,7 +176,7 @@ proxy-groups:
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Singapore.png
     use:
-      - 🦄️
+      - 🍼🦄️
       - FreeProxy
       #-
     interval: 120
@@ -190,7 +190,7 @@ proxy-groups:
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/United_States.png
     use:
-      - 🦄️
+      - 🍼🦄️
       - FreeProxy
       #-
     interval: 120
@@ -204,7 +204,7 @@ proxy-groups:
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Japan.png
     use:
-      - 🦄️
+      - 🍼🦄️
       - FreeProxy
       #-
     interval: 120
@@ -219,7 +219,7 @@ proxy-groups:
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/United_Kingdom.png
     use:
-      - 🦄️
+      - 🍼🦄️
       - FreeProxy
       #-
     interval: 120
@@ -234,7 +234,7 @@ proxy-groups:
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Germany.png
     use:
-      - 🦄️
+      - 🍼🦄️
       - FreeProxy
       #-
     interval: 120
@@ -249,7 +249,7 @@ proxy-groups:
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Russia.png
     use:
-      - 🦄️
+      - 🍼🦄️
       - FreeProxy
       #-
     interval: 120
@@ -264,7 +264,7 @@ proxy-groups:
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Canada.png
     use:
-      - 🦄️
+      - 🍼🦄️
       - FreeProxy
       #-
     interval: 120
@@ -279,7 +279,7 @@ proxy-groups:
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Korea.png
     use:
-      - 🦄️
+      - 🍼🦄️
       - FreeProxy
       #-
     interval: 120
@@ -294,7 +294,7 @@ proxy-groups:
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Turkey.png
     use:
-      - 🦄️
+      - 🍼🦄️
       - FreeProxy
       #-
     interval: 120
@@ -309,7 +309,7 @@ proxy-groups:
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/United_Nations.png
     use:
-      - 🦄️
+      - 🍼🦄️
       - FreeProxy
       #-
     interval: 120
@@ -329,7 +329,6 @@ proxy-groups:
       - DIRECT
       - Hong Kong
       - Macau
-    hidden: true
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Apple.png
 
   # 小紅書策略組
@@ -343,6 +342,34 @@ proxy-groups:
       - DIRECT
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Dinosaur.png
 
+  # GAME 策略組
+  - name: GAME
+    type: select
+    proxies:
+      - HK GAME
+      - Hong Kong
+      - Macau
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Game.png
+
+  # LOLM 策略組
+  - name: LOLM
+    type: select
+    proxies:
+      - DIRECT
+      - HK GAME
+      - Hong Kong
+      - Macau
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/League_of_Legends.png
+
+  # HK Media策略組
+  - name: 港澳 Media
+    type: select
+    proxies:
+      - Hong Kong
+      - Macau
+      - DIRECT
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/TVB.png
+
   # Bilibili策略組
   - name: Bilibili
     type: select
@@ -353,6 +380,18 @@ proxy-groups:
       - Germany
       - DIRECT
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/bilibili.png
+
+  # Wikipedia策略組
+  - name: Wikipedia
+    type: select
+    proxies:
+      - Hong Kong
+      - Macau
+      - Singapore
+      - United States American
+      - Germany
+      - DIRECT
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Pirate_Nation.png
 
   # Speedtest策略組
   - name: Speedtest
@@ -387,6 +426,16 @@ proxy-groups:
       - DIRECT
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Facebook.png
 
+  - name: Telegram
+    type: select
+    proxies:
+      - Hong Kong
+      - Macau
+      - Singapore
+      - United States American
+      - DIRECT
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Telegram.png
+
   # 流媒體策略組
   - name: 流媒體
     type: select
@@ -399,7 +448,6 @@ proxy-groups:
       - Japan
       - United Kingdom
       - Turkey
-    hidden: true
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Disney+.png
 
   # 中國大陸策略組
@@ -442,6 +490,7 @@ proxy-groups:
 #遠程訂閱規則集合
 rule-providers:
 
+
   #Apple規則
   Apple-rules:
     behavior: classical
@@ -455,260 +504,283 @@ rule-providers:
     name: Apple
     url: https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/Apple/Apple_Domain.yaml
 
+
     #廣告攔截規則
   #AD-REJET-rules:
     #behavior: classical
     #interval: 86400
     #name: 廣告攔截
     #url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Advertising/Advertising.yaml
+
   #AD-REJET-Classical-rules:
     #behavior: classical
     #interval: 86400
     #name: 廣告攔截
     #url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Advertising/Advertising_Classical.yaml
+
   #AD-REJET-Domain-rules:
     #behavior: domain
     #interval: 86400
     #name: 廣告攔截
     #url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Advertising/Advertising_Domain_For_Clash.txt
     #format: text
+
   AD-REJET-Lite-rules:
-    behavior: domain
+    behavior: classical
     interval: 86400
     name: 廣告攔截
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingLite/AdvertisingLite.yaml
 
+
     #Bilibili規則
   Bilibili-rules:
-    behavior: domain
+    behavior: classical
     interval: 86400
     name: Bilibili
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/BiliBili/BiliBili.yaml
 
   BilibiliIntl-rules:
-    behavior: domain
+    behavior: classical
     interval: 86400
     name: BilibiliIntl
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BiliBiliIntl/BiliBiliIntl.yaml
 
+
     #小紅書規則
   小紅書-rules:
-    behavior: domain
+    behavior: classical
     interval: 86400
     name: XiaoHongShu
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/XiaoHongShu/XiaoHongShu.yaml
 
+
     #GAME規則
   Steam-rules:
-    behavior: domain
+    behavior: classical
     interval: 86400
     name: Steam
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Steam/Steam.yaml
 
   EA-rules:
-    behavior: domain
+    behavior: classical
     interval: 86400
     name: EA
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/EA/EA.yaml
 
   Rockstar-rules:
-    behavior: domain
+    behavior: classical
     interval: 86400
     name: Rockstar
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Rockstar/Rockstar.yaml
 
   Xbox-rules:
-    behavior: domain
+    behavior: classical
     interval: 86400
     name: Xbox
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Xbox/Xbox.yaml
 
-  WildRift-rules:
-    behavior: domain
-    interval: 86400
-    name: WildRift
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/WildRift/WildRift.yaml
-
   PlayStation-rules:
-    behavior: domain
+    behavior: classical
     interval: 86400
     name: PlayStation
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/PlayStation/PlayStation.yaml
 
   Epic-rules:
-    behavior: domain
+    behavior: classical
     interval: 86400
     name: Epic
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Epic/Epic.yaml
 
   Ubisoft-rules:
-    behavior: domain
+    behavior: classical
     interval: 86400
     name: Ubisoft
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/UBI/UBI.yaml
 
   Riot-rules:
-    behavior: domain
+    behavior: classical
     interval: 86400
     name: Riot
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Riot/Riot.yaml
 
+    #HKMedia規則
+  TVB-rules:
+    behavior: classical
+    interval: 86400
+    name: TVB
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/TVB/TVB.yaml
+
+  myTVSUPER-rules:
+    behavior: classical
+    interval: 86400
+    name: myTVSUPER
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/myTVSUPER/myTVSUPER.yaml
+
+  ViuTV-rules:
+    behavior: classical
+    interval: 86400
+    name: ViuTV
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/ViuTV/ViuTV.yaml
+
+  HK01-rules:
+    behavior: classical
+    interval: 86400
+    name: HK01
+    url: https://raw.githubusercontent.com/Laimeiyunzn/Proxy-Mount/Proxies/Rules/HK01.yaml
+
     #社交媒體規則
   Facebook-rules:
-    behavior: domain
+    behavior: classical
     interval: 86400
     name: Facebook
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Facebook/Facebook.yaml
 
   Whatsapp-rules:
-    behavior: domain
+    behavior: classical
     interval: 86400
     name: Whatsapp
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Whatsapp/Whatsapp.yaml
 
   Twitter-rules:
-    behavior: domain
+    behavior: classical
     interval: 86400
     name: Twitter
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Twitter/Twitter.yaml
 
   Telegram-rules:
-    behavior: domain
+    behavior: classical
     interval: 86400
     name: Telegram
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Telegram/Telegram.yaml
 
   Discord-rules:
-    behavior: domain
+    behavior: classical
     interval: 86400
     name: Discord
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Discord/Discord.yaml
 
   Instagram-rules:
-    behavior: domain
+    behavior: classical
     interval: 86400
     name: Instagram
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Instagram/Instagram.yaml
 
   Reddit-rules:
-    behavior: domain
+    behavior: classical
     interval: 86400
     name: Reddit
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Reddit/Reddit.yaml
 
+
     #流媒體規則
   TikTok-rules:
-    behavior: domain
+    behavior: classical
     interval: 86400
     name: TikTok
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.yaml
+
   Netflix-rules:
-    behavior: domain
+    behavior: classical
     interval: 86400
     name: Netflix
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Netflix/Netflix.yaml
 
   Disney+-rules:
-    behavior: domain
+    behavior: classical
     interval: 86400
     name: Disney+
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Disney/Disney.yaml
 
   HBO HK-rules:
-    behavior: domain
+    behavior: classical
     interval: 86400
     name: HBO HK
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/HBOHK/HBOHK.yaml
 
   HBO Asia-rules:
-    behavior: domain
+    behavior: classical
     interval: 86400
     name: HBO
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/HBOAsia/HBOAsia.yaml
 
   HBO USA-rules:
-    behavior: domain
+    behavior: classical
     interval: 86400
     name: HBO USA
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/HBOUSA/HBOUSA.yaml
 
   HBO-rules:
-    behavior: domain
+    behavior: classical
     interval: 86400
     name: HBO
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/HBO/HBO.yaml
 
   Hulu-rules:
-    behavior: domain
+    behavior: classical
     interval: 86400
     name: Hulu
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Hulu/Hulu.yaml
 
   Hulu USA-rules:
-    behavior: domain
+    behavior: classical
     interval: 86400
     name: Hulu USA
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/HuluUSA/HuluUSA.yaml
 
   Hulu JP-rules:
-    behavior: domain
+    behavior: classical
     interval: 86400
     name: Hulu JP
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/HuluJP/HuluJP.yaml
 
   Youtube-rules:
-    behavior: domain
+    behavior: classical
     interval: 86400
     name: Youtube
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/YouTube/YouTube.yaml
 
   Twitch-rules:
-    behavior: domain
+    behavior: classical
     interval: 86400
     name: Twitch
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Twitch/Twitch.yaml
 
   AmazonPrimeVideo-rules:
-    behavior: domain
+    behavior: classical
     interval: 86400
     name: AmazonPrimeVideo
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/AmazonPrimeVideo/AmazonPrimeVideo.yaml
 
   Spotify-rules:
-    behavior: domain
+    behavior: classical
     interval: 86400
     name: Spotify
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Spotify/Spotify.yaml
-
-    #Wikipedia規則
-  Wikipedia-rules:
-    behavior: domain
-    interval: 86400
-    name: Wikipedia
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Wikipedia/Wikipedia.yaml
+  
 
     #Speedtest規則
   Speedtest-rules:
-    behavior: domain
+    behavior: classical
     interval: 86400
     name: Speedtest
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Speedtest/Speedtest.yaml
 
+
     #工具類規則
   Google-rules:
-    behavior: domain
+    behavior: classical
     interval: 86400
     name: Google
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Google/Google.yaml
 
   Microsoft-rules:
-    behavior: domain
+    behavior: classical
     interval: 86400
     name: Microsoft
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Microsoft/Microsoft.yaml
 
   GitHub-rules:
-    behavior: domain
+    behavior: classical
     interval: 86400
     name: GitHub
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GitHub/GitHub.yaml
@@ -731,8 +803,26 @@ rule-providers:
     name: Pixiv
     url: https://clashios.app/static/rules/pixiv-domain-set.yaml
 
+
+    #Wikipedia規則
+  Wikipedia-rules:
+    behavior: classical
+    interval: 86400
+    name: Wikipedia
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Wikipedia/Wikipedia.yaml
+
+
+    #微博規則
+  Weibo-rules:
+    behavior: classical
+    interval: 86400
+    name: Weibo
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Weibo/Weibo.yaml
+
+
     #境外分流規則
  #Test
+
 
     #中國大陸通用規則
   #ASN-CN-rules:
@@ -740,16 +830,19 @@ rule-providers:
     #interval: 86400
     #name: ASN-CN
     #url: https://yfamily.vercel.app/rule/ASN-CN.list
+
   #Mainland-rules:
     #behavior: classical
     #interval: 86400
     #name: Mainland
     #url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/China/China.yaml
+
   #Mainland IP-rules:
     #behavior: ipcidr
     #interval: 86400
     #name: Mainland IP
     #url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/ChinaIPs/ChinaIPs_IP.yaml
+
   #Mainland Domain-rules:
     #behavior: domain
     #interval: 86400
@@ -766,7 +859,7 @@ rules:
   - RULE-SET,小紅書-rules,小紅書
 
   # 廣告攔截分流規則引用
-  #- RULE-SET,AD-REJET-Lite-rules,廣告攔截
+  - RULE-SET,AD-REJET-Lite-rules,廣告攔截
   #- RULE-SET,AD-REJET-Domain-rules,廣告攔截
   #- DOMAIN,AD-REJET-Domain-Lite-rules,廣告攔截
   #- RULE-SET,AD-REJET-rules,廣告攔截
@@ -777,14 +870,20 @@ rules:
   - RULE-SET,Bilibili-rules,Bilibili
   - RULE-SET,BilibiliIntl-rules,Bilibili
 
-  # GAME分流規則引用
-  - RULE-SET,Steam-rules,工具類
-  - RULE-SET,EA-rules,工具類
-  - RULE-SET,Rockstar-rules,工具類
-  - RULE-SET,WildRift-rules,工具類
-  - RULE-SET,PlayStation-rules,工具類
-  - RULE-SET,Ubisoft-rules,工具類
-  - RULE-SET,Riot-rules,工具類
+  # Hong Kong GAME分流規則引用
+  - RULE-SET,Steam-rules,HK GAME
+  - RULE-SET,EA-rules,HK GAME
+  - RULE-SET,Rockstar-rules,HK GAME
+  - RULE-SET,WildRift-rules,HK GAME
+  - RULE-SET,PlayStation-rules,HK GAME
+  - RULE-SET,Ubisoft-rules,HK GAME
+  - RULE-SET,Riot-rules,HK GAME
+
+  # HKMedia分流規則引用
+  - RULE-SET,TVB-rules,Hong Kong
+  - RULE-SET,myTVSUPER-rules,Hong Kong
+  - RULE-SET,ViuTV-rules,Hong Kong
+  - RULE-SET,HK01-rules,Hong Kong
 
   # 社交媒體分流規則引用
   - RULE-SET,Facebook-rules,社交媒體
@@ -809,6 +908,10 @@ rules:
   - RULE-SET,Youtube-rules,流媒體
   - RULE-SET,Twitch-rules,流媒體
   - RULE-SET,AmazonPrimeVideo-rules,流媒體
+  - RULE-SET,Spotify-rules,流媒體
+
+  # Wikipedia分流規則引用
+  - RULE-SET,Wikipedia-rules,Wikipedia
 
   # Speedtest分流規則引用
   - RULE-SET,Speedtest-rules,Speedtest
@@ -828,7 +931,6 @@ rules:
   #- DOMAIN,GlobalMedia Domain-rules,Outside
 
   # 中國大陸規則引用
-  - RULE-SET,Telegram-rules,中國大陸
   #- RULE-SET,ASN-CN-rules,中國大陸
   # Mainland-rules
   # RULE-SET,Mainland-rules,中國大陸
