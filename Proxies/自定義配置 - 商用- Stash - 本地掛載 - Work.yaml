@@ -695,25 +695,25 @@ rule-providers:
     behavior: classical
     interval: 86400
     name: HBO HK
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/HBOHK/HBOHK.yaml
+    url: https://clashios.app/static/rules/hbohk-domain-set.yaml
 
   HBO Asia-rules:
     behavior: classical
     interval: 86400
     name: HBO
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/HBOAsia/HBOAsia.yaml
+    url: https://clashios.app/static/rules/hboasia-domain-set.yamlHBOAsia.yaml
 
   HBO USA-rules:
     behavior: classical
     interval: 86400
     name: HBO USA
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/HBOUSA/HBOUSA.yaml
+    url: https://clashios.app/static/rules/hbousa-classical-set.yaml
 
   HBO-rules:
     behavior: classical
     interval: 86400
     name: HBO
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/HBO/HBO.yaml
+    url: https://clashios.app/static/rules/hbo-classical-set.yamlrule/Clash/HBO/HBO.yaml
 
   Hulu-rules:
     behavior: classical
