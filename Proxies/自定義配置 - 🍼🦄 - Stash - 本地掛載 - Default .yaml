@@ -721,7 +721,7 @@ rule-providers:
     behavior: classical
     interval: 86400
     name: HBO HK
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/HBOHK/HBOHK.yaml
+    url: https://github.com/Laimeiyunzn/Proxy-Mount/raw/refs/heads/Proxies/Rules/HBO%20MAX%20HK.yaml
 
   HBO Asia-rules:
     behavior: classical
