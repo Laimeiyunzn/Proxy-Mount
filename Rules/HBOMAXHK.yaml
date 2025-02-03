@@ -4,17 +4,18 @@
 # UPDATED: 2025-02-02 08:50:00
 # DOMAIN-SUFFIX: 14
 # TOTAL: 14
-DOMAIN-SUFFIX,prd.api.discomax.com
-DOMAIN-SUFFIX,media.max.com
-DOMAIN-SUFFIX,prd.api.max.com
-DOMAIN-SUFFIX,max.com
-DOMAIN-SUFFIX,max.com
-DOMAIN-SUFFIX,maxgo.com
-DOMAIN-SUFFIX,hbo.com
-DOMAIN-SUFFIX,hbonow.com
-DOMAIN-SUFFIX,hbogo.com
-DOMAIN-SUFFIX,hbomax.com
-DOMAIN-SUFFIX,hbomaxcdn.com
-DOMAIN-SUFFIX,forthethrone.com
-DOMAIN-SUFFIX,cinemax.com
-DOMAIN-SUFFIX,discomax.com
+payload:
+  - DOMAIN-SUFFIX,prd.api.discomax.com
+  - DOMAIN-SUFFIX,media.max.com
+  - DOMAIN-SUFFIX,prd.api.max.com
+  - DOMAIN-SUFFIX,max.com
+  - DOMAIN-SUFFIX,max.com
+  - DOMAIN-SUFFIX,maxgo.com
+  - DOMAIN-SUFFIX,hbo.com
+  - DOMAIN-SUFFIX,hbonow.com
+  - DOMAIN-SUFFIX,hbogo.com
+  - DOMAIN-SUFFIX,hbomax.com
+  - DOMAIN-SUFFIX,hbomaxcdn.com
+  - DOMAIN-SUFFIX,forthethrone.com
+  - DOMAIN-SUFFIX,cinemax.com
+  - DOMAIN-SUFFIX,discomax.com
