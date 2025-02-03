@@ -721,7 +721,7 @@ rule-providers:
     behavior: classical
     interval: 86400
     name: HBO HK
-    url: https://raw.githubusercontent.com/Laimeiyunzn/Proxy-Mount/Proxies/Rules/HBO%20MAX%20HK.yaml
+    url: https://raw.githubusercontent.com/Laimeiyunzn/Proxy-Mount/Proxies/Rules/HBOMAXHK.yaml
 
   HBO Asia-rules:
     behavior: classical
