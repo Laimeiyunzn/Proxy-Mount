@@ -881,7 +881,8 @@ rule-providers:
 #分流規則引用
 rules:
   # 插件ban分流規則
-  - DOMAIN-SUFFIX,149.88.82.119,REJECT
+  - DOMAIN,149.88.82.119:80,REJECT
+
   # Apple分流規則引用
   - RULE-SET,Apple-rules,Apple
 
