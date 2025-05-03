@@ -574,6 +574,14 @@ rule-providers:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/XiaoHongShu/XiaoHongShu.yaml
 
 
+    #抖音規則
+  抖音-rules:
+    behavior: classical
+    interval: 86400
+    name: XiaoHongShu
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Douyin/Douyin.yaml
+
+
     #GAME規則
   Steam-rules:
     behavior: classical
@@ -888,6 +896,7 @@ rules:
 
   # 小紅書分流規則引用
   - RULE-SET,小紅書-rules,小紅書
+  - RULE-SET,抖音-rules,小紅書
 
   # 廣告攔截分流規則引用
   - RULE-SET,AD-REJET-Lite-rules,廣告攔截
