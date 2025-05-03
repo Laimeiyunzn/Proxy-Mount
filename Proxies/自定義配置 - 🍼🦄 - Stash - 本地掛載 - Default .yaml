@@ -339,6 +339,7 @@ proxy-groups:
       - Macau
       - Singapore
       - United States American
+      - 手動全局「全球網絡」
       - DIRECT
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Dinosaur.png
 
