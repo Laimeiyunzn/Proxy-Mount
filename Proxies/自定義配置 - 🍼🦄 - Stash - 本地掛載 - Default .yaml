@@ -69,7 +69,7 @@ proxy-providers:
     interval: 600
 
   # 3.代理供應商
-  Share Centre Pro Proxy:
+    #Share Centre Pro Proxy:
     #url: xxx
 #添加新的的網絡代理供應商「xxx」處填入
 
