@@ -69,9 +69,9 @@ proxy-providers:
     interval: 600
 
   # 3.代理供應商
-    Share Centre Pro Proxy:
-    url: https://8.218.167.131:55356/api/v1/client/subscribe?token=3c809aa86a2e131d26b3e0b43153b3dc
-    interval: 600
+  Share Centre Pro Proxy:
+    # url: 
+    # interval: 600
 #添加新的的網絡代理供應商「xxx」處填入
 
   # 4.代理供應商
