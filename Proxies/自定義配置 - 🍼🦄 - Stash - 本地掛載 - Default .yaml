@@ -821,6 +821,25 @@ rule-providers:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GitHub/GitHub.yaml
 
 
+  ArtStation-rules:
+    behavior: domain
+    interval: 86400
+    name: ArtStation
+    url: https://raw.githubusercontent.com/Laimeiyunzn/Proxy-Mount/refs/heads/Proxies/Rules/Artstation.yaml
+
+  Pinterest-rules:
+    behavior: domain
+    interval: 86400
+    name: Pinterest
+    url: https://clashios.app/static/rules/pinterest-domain-set.yaml
+
+  Pixiv-rules:
+    behavior: domain
+    interval: 86400
+    name: Pixiv
+    url: https://clashios.app/static/rules/pixiv-domain-set.yaml
+
+
     #鹹嘢規則
   MissAV-rules:
     behavior: classical
@@ -969,6 +988,10 @@ rules:
   - RULE-SET,Google-rules,工具類
   - RULE-SET,Microsoft-rules,工具類
   - RULE-SET,GitHub-rules,工具類
+  - RULE-SET,ArtStation-rules,工具類
+  - RULE-SET,Pinterest-rules,工具類
+  - RULE-SET,Pixiv-rules,工具類
+
 
   # 境外分流規則引用
   #- RULE-SET,Global-rules,Outside
@@ -977,7 +1000,6 @@ rules:
   #- DOMAIN,GlobalMedia Domain-rules,Outside
 
   # 中國大陸規則引用
-  - RULE-SET,Telegram-rules,中國大陸
   #- RULE-SET,ASN-CN-rules,中國大陸
   # Mainland-rules
   # RULE-SET,Mainland-rules,中國大陸
