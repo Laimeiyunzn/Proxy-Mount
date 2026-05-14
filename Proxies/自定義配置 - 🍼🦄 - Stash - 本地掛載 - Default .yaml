@@ -405,7 +405,7 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Auto.png
 
   # 工具類策略組
-  - name: 工具類
+  - name: 工具類｜Artificial Intelligence
     type: select
     proxies:
       - Hong Kong
@@ -516,6 +516,103 @@ rule-providers:
     interval: 86400
     name: Apple
     url: https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/Apple/Apple_Domain.yaml
+
+  iCloud Domain-rules:
+    behavior: domain
+    interval: 86400
+    name: Apple
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/iCloud/iCloud.yaml
+
+  FitnessPlus Domain-rules:
+    behavior: domain
+    interval: 86400
+    name: Apple
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/FitnessPlus/FitnessPlus.yaml
+
+  AppleMail Domain-rules:
+    behavior: domain
+    interval: 86400
+    name: Apple
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleMail/AppleMail.yaml
+
+  AppleMusic Domain-rules:
+    behavior: domain
+    interval: 86400
+    name: Apple
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleMusic/AppleMusic.yaml
+
+  AppleNews Domain-rules:
+    behavior: domain
+    interval: 86400
+    name: Apple
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleNews/AppleNews.yaml
+
+  AppleTV Domain-rules:
+    behavior: domain
+    interval: 86400
+    name: Apple
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleTV/AppleTV.yaml
+
+  Siri Domain-rules:
+    behavior: domain
+    interval: 86400
+    name: Apple
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Siri/Siri.yaml
+
+  TestFlight Domain-rules:
+    behavior: domain
+    interval: 86400
+    name: Apple
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TestFlight/TestFlight.yaml
+
+  尋找 Domain-rules:
+    behavior: domain
+    interval: 86400
+    name: Apple
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/FindMy/FindMy.yaml
+
+  AppleProxy Domain-rules:
+    behavior: domain
+    interval: 86400
+    name: Apple
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleProxy/AppleProxy.yaml
+
+  iCloudPrivateRelay Domain-rules:
+    behavior: domain
+    interval: 86400
+    name: Apple
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/iCloudPrivateRelay/iCloudPrivateRelay.yaml
+
+  AppleDev Domain-rules:
+    behavior: domain
+    interval: 86400
+    name: Apple
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleDev/AppleDev.yaml
+
+  AppleID Domain-rules:
+    behavior: domain
+    interval: 86400
+    name: Apple
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleID/AppleID.yaml
+
+  AppleFirmware Domain-rules:
+    behavior: domain
+    interval: 86400
+    name: Apple
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleFirmware/AppleFirmware.yaml
+
+  AppleHardware Domain-rules:
+    behavior: domain
+    interval: 86400
+    name: Apple
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleHardware/AppleHardware.yaml
+  
+  AppleMedia Domain-rules:
+    behavior: domain
+    interval: 86400
+    name: Apple
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleMedia/AppleMedia.yaml
+
 
 
     #廣告攔截規則
@@ -801,7 +898,7 @@ rule-providers:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Speedtest/Speedtest.yaml
 
 
-    #工具類規則
+    #工具類｜Artificial intelligence規則
   Google-rules:
     behavior: classical
     interval: 86400
@@ -820,25 +917,23 @@ rule-providers:
     name: GitHub
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GitHub/GitHub.yaml
 
-
-  ArtStation-rules:
+  Gemini-rules:
     behavior: classical
     interval: 86400
-    name: ArtStation
-    url: https://raw.githubusercontent.com/Laimeiyunzn/Proxy-Mount/refs/heads/Proxies/Rules/Artstation.yaml
+    name: GitHub
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Gemini/Gemini.yaml
 
-  Pinterest-rules:
+  Claude-rules:
     behavior: classical
     interval: 86400
-    name: Pinterest
-    url: https://clashios.app/static/rules/pinterest-domain-set.yaml
+    name: GitHub
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Claude/Claude.yaml
 
-  Pixiv-rules:
+  OpenAI-rules:
     behavior: classical
     interval: 86400
-    name: Pixiv
-    url: https://clashios.app/static/rules/pixiv-domain-set.yaml
-
+    name: GitHub
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OpenAI/OpenAI.yaml
 
     #鹹嘢規則
   MissAV-rules:
@@ -874,6 +969,26 @@ rule-providers:
     interval: 86400
     name: Weibo
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Weibo/Weibo.yaml
+
+
+    #境外分流規則
+  ArtStation-rules:
+    behavior: classical
+    interval: 86400
+    name: ArtStation
+    url: https://raw.githubusercontent.com/Laimeiyunzn/Proxy-Mount/refs/heads/Proxies/Rules/Artstation.yaml
+
+  Pinterest-rules:
+    behavior: classical
+    interval: 86400
+    name: Pinterest
+    url: https://clashios.app/static/rules/pinterest-domain-set.yaml
+
+  Pixiv-rules:
+    behavior: classical
+    interval: 86400
+    name: Pixiv
+    url: https://clashios.app/static/rules/pixiv-domain-set.yaml
 
 
     #境外分流規則
@@ -913,6 +1028,23 @@ rules:
 
   # Apple分流規則引用
   - RULE-SET,Apple-rules,Apple
+  - RULE-SET,Apple Domain-rules,Apple
+  - RULE-SET,iCloud Domain-rules,Apple
+  - RULE-SET,FitnessPlus Domain-rules
+  - RULE-SET,AppleMail Domain-rules
+  - RULE-SET,AppleMusic Domain-rules
+  - RULE-SET,AppleNews Domain-rules
+  - RULE-SET,AppleTV Domain-rules
+  - RULE-SET,Siri Domain-rules
+  - RULE-SET,TestFlight Domain-rules
+  - RULE-SET,尋找 Domain-rules
+  - RULE-SET,AppleProxy Domain-rules
+  - RULE-SET,iCloudPrivateRelay Domain-rules
+  - RULE-SET,AppleDev Domain-rules
+  - RULE-SET,AppleID Domain-rules
+  - RULE-SET,AppleFirmware Domain-rules
+  - RULE-SET,AppleHardware Domain-rules
+  - RULE-SET,AppleMedia Domain-rules
 
   # 小紅書分流規則引用
   - RULE-SET,小紅書-rules,小紅書
@@ -984,16 +1116,18 @@ rules:
   # Speedtest分流規則引用
   - RULE-SET,Speedtest-rules,Speedtest
 
-  # 工具類分流規則引用
-  - RULE-SET,Google-rules,工具類
-  - RULE-SET,Microsoft-rules,工具類
-  - RULE-SET,GitHub-rules,工具類
-  - RULE-SET,ArtStation-rules,工具類
-  - RULE-SET,Pinterest-rules,工具類
-  - RULE-SET,Pixiv-rules,工具類
-
+  # 工具類｜Artificial intelligence分流規則引用
+  - RULE-SET,Google-rules,工具類｜Artificial intelligence
+  - RULE-SET,Microsoft-rules,工具類｜Artificial intelligence
+  - RULE-SET,GitHub-rules,工具類｜Artificial intelligence
+  - RULE-SET,Gemini-rules,工具類｜Artificial intelligence
+  - RULE-SET,Claude-rules,工具類｜Artificial intelligence
+  - RULE-SET,OpenAI-rules,工具類｜Artificial intelligence
 
   # 境外分流規則引用
+  - RULE-SET,ArtStation-rules,Outside
+  - RULE-SET,Pinterest-rules,Outside
+  - RULE-SET,Pixiv-rules,Outside
   #- RULE-SET,Global-rules,Outside
   #- DOMAIN,Global Domain-rules,Outside
   #- RULE-SET,GlobalMedia-rules,Outside
