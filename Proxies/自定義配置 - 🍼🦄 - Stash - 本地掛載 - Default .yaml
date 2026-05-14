@@ -822,19 +822,19 @@ rule-providers:
 
 
   ArtStation-rules:
-    behavior: domain
+    behavior: classical
     interval: 86400
     name: ArtStation
     url: https://raw.githubusercontent.com/Laimeiyunzn/Proxy-Mount/refs/heads/Proxies/Rules/Artstation.yaml
 
   Pinterest-rules:
-    behavior: domain
+    behavior: classical
     interval: 86400
     name: Pinterest
     url: https://clashios.app/static/rules/pinterest-domain-set.yaml
 
   Pixiv-rules:
-    behavior: domain
+    behavior: classical
     interval: 86400
     name: Pixiv
     url: https://clashios.app/static/rules/pixiv-domain-set.yaml
