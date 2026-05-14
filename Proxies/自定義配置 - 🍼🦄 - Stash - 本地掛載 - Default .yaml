@@ -1030,21 +1030,21 @@ rules:
   - RULE-SET,Apple-rules,Apple
   - RULE-SET,Apple Domain-rules,Apple
   - RULE-SET,iCloud Domain-rules,Apple
-  - RULE-SET,FitnessPlus Domain-rules
-  - RULE-SET,AppleMail Domain-rules
-  - RULE-SET,AppleMusic Domain-rules
-  - RULE-SET,AppleNews Domain-rules
-  - RULE-SET,AppleTV Domain-rules
-  - RULE-SET,Siri Domain-rules
-  - RULE-SET,TestFlight Domain-rules
-  - RULE-SET,尋找 Domain-rules
-  - RULE-SET,AppleProxy Domain-rules
-  - RULE-SET,iCloudPrivateRelay Domain-rules
-  - RULE-SET,AppleDev Domain-rules
-  - RULE-SET,AppleID Domain-rules
-  - RULE-SET,AppleFirmware Domain-rules
-  - RULE-SET,AppleHardware Domain-rules
-  - RULE-SET,AppleMedia Domain-rules
+  - RULE-SET,FitnessPlus Domain-rules,Apple
+  - RULE-SET,AppleMail Domain-rules,Apple
+  - RULE-SET,AppleMusic Domain-rules,Apple
+  - RULE-SET,AppleNews Domain-rules,Apple
+  - RULE-SET,AppleTV Domain-rules,Apple
+  - RULE-SET,Siri Domain-rules,Apple
+  - RULE-SET,TestFlight Domain-rules,Apple
+  - RULE-SET,尋找 Domain-rules,Apple
+  - RULE-SET,AppleProxy Domain-rules,Apple
+  - RULE-SET,iCloudPrivateRelay Domain-rules,Apple
+  - RULE-SET,AppleDev Domain-rules,Apple
+  - RULE-SET,AppleID Domain-rules,Apple
+  - RULE-SET,AppleFirmware Domain-rules,Apple
+  - RULE-SET,AppleHardware Domain-rules,Apple
+  - RULE-SET,AppleMedia Domain-rules,Apple
 
   # 小紅書分流規則引用
   - RULE-SET,小紅書-rules,小紅書
