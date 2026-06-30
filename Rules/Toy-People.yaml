@@ -1,0 +1,15 @@
+# NAME: Toy-People
+# AUTHOR: Laimeiyunzn
+# REPO: https://github.com/Laimeiyunzn/Proxy-Mount
+# UPDATED: 2026-06-30 08:19:23
+# DOMAIN: 6
+# DOMAIN-SUFFIX: 1
+# TOTAL: 7
+payload:
+  - DOMAIN,.toy-people.com
+  - DOMAIN,ws.toy-people.com
+  - DOMAIN,api.toy-people.com
+  - DOMAIN,cdn.toy-people.com
+  - DOMAIN,www.toy-people.com
+  - DOMAIN,magazine.artstation.com
+  - DOMAIN-SUFFIX,toy-people.com
