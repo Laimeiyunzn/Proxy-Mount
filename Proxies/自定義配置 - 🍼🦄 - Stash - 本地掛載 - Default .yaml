@@ -168,7 +168,7 @@ proxy-groups:
     lazy: true
     tolerance: 50
     include-all: true
-    filter: 台|台灣|台湾|台北|新竹|台中|桃园|台南|高雄|花莲|🇨🇳|🇹🇼|TW|(?i)Taiwan
+    filter: 台|台灣|台湾|台北|新竹|台中|桃园|台南|高雄|花莲|🇨🇳|🇼🇸|TW|(?i)Taiwan
 
     #新加坡策略組
   - name: Singapore
